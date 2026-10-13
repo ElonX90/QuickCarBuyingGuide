@@ -8,7 +8,13 @@
     "published_at": "2015-04-29",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2018-03-31 起对新获型式批准的 M1/N1 车型适用 eCall 要求。",
-    "limitations": "存在法定例外；并非要求当日全部存量汽车加装。"
+    "limitations": "存在法定例外；并非要求当日全部存量汽车加装。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "cn_ecall",
@@ -19,7 +25,13 @@
     "published_at": "2025-04-25",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "车载事故紧急呼叫系统；发布 2025-04-25，实施 2027-07-01。",
-    "limitations": "对具体车型的过渡安排和技术范围应查标准全文。"
+    "limitations": "对具体车型的过渡安排和技术范围应查标准全文。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "ota_rules",
@@ -30,7 +42,13 @@
     "published_at": "2025-03-02",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "以 OTA 消除产品缺陷、实施召回的，应按召回实施办法组织实施。",
-    "limitations": "普通功能更新与消除安全缺陷的召回须区分。"
+    "limitations": "普通功能更新与消除安全缺陷的召回须区分。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "social_law",
@@ -41,7 +59,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "用人单位依法缴纳社会保险；职工有权查询缴费记录。",
-    "limitations": "具体基数、上下限和缴费比例还需核对所在地当年政策。"
+    "limitations": "具体基数、上下限和缴费比例还需核对所在地当年政策。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "social_base",
@@ -52,7 +76,13 @@
     "published_at": "2026-02-04",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "缴费工资一般参考上年度月平均税前工资，并按当地政策执行。",
-    "limitations": "天津说明不能直接替代其他地区的比例、上下限规则。"
+    "limitations": "天津说明不能直接替代其他地区的比例、上下限规则。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "market_context",
@@ -63,7 +93,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "最新发布区列有 2026 年 9 月全国乘用车市场分析。",
-    "limitations": "本轮文章正文未完整解析，不据此填写车型销量或声称样本为销量前 30。"
+    "limitations": "本轮文章正文未完整解析，不据此填写车型销量或声称样本为销量前 30。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "h5_cycle",
@@ -74,7 +110,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "材料明确以尚界 H5 举例：立项至量产约 15 个月。",
-    "limitations": "官方转载的媒体材料；无原始立项文件，未给具体起止日；已有平台和供应链研发不在这 15 个月中。"
+    "limitations": "官方转载的媒体材料；无原始立项文件，未给具体起止日；已有平台和供应链研发不在这 15 个月中。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "h5_current",
@@ -85,7 +127,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方目录可见 H5，包含纯电和增程；页面已使用 Max+ 命名。",
-    "limitations": "年款升级的追加研发工时未披露。"
+    "limitations": "年款升级的追加研发工时未披露。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "h5_sku",
@@ -96,7 +144,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "六个基本配置列：纯电 Pro/Pro 长续航/Max+/Max+ 长续航，增程 Pro/Max+。",
-    "limitations": "计数不含颜色与选装；配置页可见不等于特定地区有现车。"
+    "limitations": "计数不含颜色与选装；配置页可见不等于特定地区有现车。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "unyx_cycle",
@@ -107,7 +161,13 @@
     "published_at": "2026-03-27",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方称从最初草图至量产约 24 个月。",
-    "limitations": "这是草图至量产口径，不是有文件支持的立项至零售上市日期差。"
+    "limitations": "这是草图至量产口径，不是有文件支持的立项至零售上市日期差。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "unyx_sale",
@@ -118,7 +178,13 @@
     "published_at": "2026-04-16",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-04-16 上市；发布时有 Pure、Ultra、Max 三个版本。",
-    "limitations": "是发布时计数，不作为 10 月现售 SKU 的确定总数。"
+    "limitations": "是发布时计数，不作为 10 月现售 SKU 的确定总数。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "vw_current",
@@ -129,7 +195,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方品牌发布材料包含与众 08。",
-    "limitations": "品牌在其他地区销售其他车型，不代表与众 08 已在海外正式零售。"
+    "limitations": "品牌在其他地区销售其他车型，不代表与众 08 已在海外正式零售。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "audi_cycle",
@@ -140,7 +212,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "Q12 提到约 24 个月开发周期；奥迪高管接续回答解释并行开发与品质保障。",
-    "limitations": "数字出现在记者问题中，高管未单独重复精确数字；仅记旁证，不给未知月数编造上下界，不等于原始立项记录。"
+    "limitations": "数字出现在记者问题中，高管未单独重复精确数字；仅记旁证，不给未知月数编造上下界，不等于原始立项记录。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "audi_global",
@@ -151,7 +229,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "明确为中国专属产品合作；官方称首款车开发时间缩短 30%。",
-    "limitations": "30% 不给原基数，不能独立反推绝对月数；全球品牌不等于每一款车全球销售。"
+    "limitations": "30% 不给原基数，不能独立反推绝对月数；全球品牌不等于每一款车全球销售。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "audi_current",
@@ -162,7 +246,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "E5 Sportback 有星钻特别版、钦定性能 quattro 等后续版本信息。",
-    "limitations": "不能继续把最初四款发布数当现售 SKU 总数；目录不完整证明全部版本仍可订。"
+    "limitations": "不能继续把最初四款发布数当现售 SKU 总数；目录不完整证明全部版本仍可订。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "cea_18",
@@ -173,7 +263,13 @@
     "published_at": "2026-01-28",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产。",
-    "limitations": "18 个月是架构项目，不能填写成与众 07 整车立项至上市周期。"
+    "limitations": "18 个月是架构项目，不能填写成与众 07 整车立项至上市周期。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xiaomi_su7",
@@ -184,7 +280,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "页面显示新一代 SU7，标准版、Pro、Max 三个普通系列版本。",
-    "limitations": "不含单独系列 SU7 Ultra；尚未披露该代整车项目起点。"
+    "limitations": "不含单独系列 SU7 Ultra；尚未披露该代整车项目起点。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xiaomi_yu7",
@@ -195,7 +297,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方目录有 YU7 纯电 SUV。",
-    "limitations": "2025 发布计数不能覆盖 2026 新增版本。"
+    "limitations": "2025 发布计数不能覆盖 2026 新增版本。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xiaomi_2026",
@@ -206,7 +314,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-05-21 发布 YU7 标准版和 YU7 GT。",
-    "limitations": "用于发现 SKU 时间漂移；不推定当前全系列总数。"
+    "limitations": "用于发现 SKU 时间漂移；不推定当前全系列总数。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xiaomi_europe",
@@ -217,7 +331,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "页面将 2027 年进入欧洲作为未来计划。",
-    "limitations": "计划不等于截至检索日已销售；也不用于证明全球所有其他地区均未销售。"
+    "limitations": "计划不等于截至检索日已销售；也不用于证明全球所有其他地区均未销售。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "tesla_sku",
@@ -228,7 +348,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表普通五座 Y 计四个。",
-    "limitations": "色漆、轮毂、软件包不做笛卡尔积；Model Y L 另案不混入。"
+    "limitations": "色漆、轮毂、软件包不做笛卡尔积；Model Y L 另案不混入。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "tesla_3_uk",
@@ -239,7 +365,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "英国官网存在 Model 3 销售产品入口。",
-    "limitations": "可支持国际车型家族，不能认证中国 VIN 的 eCall 或硬件一致性。"
+    "limitations": "可支持国际车型家族，不能认证中国 VIN 的 eCall 或硬件一致性。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "tesla_y_uk",
@@ -250,7 +382,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "英国官网存在 Model Y 销售产品入口。",
-    "limitations": "不外推中国专属加长版本 Y L。"
+    "limitations": "不外推中国专属加长版本 Y L。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "byd_manual",
@@ -261,7 +399,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "目录可见第三代元 PLUS、宋 Pro DM-i 飞驰版、2026 款秦 L DM-i。",
-    "limitations": "提供车型与年款识别；未完整得到当前各版订购名单。"
+    "limitations": "提供车型与年款识别；未完整得到当前各版订购名单。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "byd_seagull",
@@ -272,7 +416,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "海鸥系列有官方产品展示页。",
-    "limitations": "页面未完整确认最新年款和当前全部 SKU；按车系研究，不宣称覆盖最新所有配置。"
+    "limitations": "页面未完整确认最新年款和当前全部 SKU；按车系研究，不宣称覆盖最新所有配置。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "byd_dolphin",
@@ -283,7 +433,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "海豚系列官方目录可见。",
-    "limitations": "不把旧年款目录的配置数当最新总数。"
+    "limitations": "不把旧年款目录的配置数当最新总数。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "byd_dolphin_uk",
@@ -294,7 +450,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "英国正式配置器提供 DOLPHIN 购买选项。",
-    "limitations": "英国车尺寸、配置及年款可能与中国有差别。"
+    "limitations": "英国车尺寸、配置及年款可能与中国有差别。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "byd_surf_map",
@@ -305,7 +467,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "厂商将 SEAGULL、DOLPHIN MINI、DOLPHIN SURF 作为不同市场名称说明。",
-    "limitations": "是车型家族映射；中国海鸥与欧洲 Surf 不是相同配置的直接证明。"
+    "limitations": "是车型家族映射；中国海鸥与欧洲 Surf 不是相同配置的直接证明。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_e5",
@@ -316,7 +484,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "页面列出五款：530 启航、530 探索、610 远航、610 探索+、610 星舰。",
-    "limitations": "下方部分参数表仅呈现四列，应结合上方五款价格卡核对，不能漏掉星舰版。"
+    "limitations": "下方部分参数表仅呈现四列，应结合上方五款价格卡核对，不能漏掉星舰版。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_e5_launch",
@@ -327,7 +501,13 @@
     "published_at": "2024-08-03",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2024-08-03 E5 发布，官方说明从开始面向全球并开发左右舵。",
-    "limitations": "不披露整车立项日；满足多国要求是厂商表述。"
+    "limitations": "不披露整车立项日；满足多国要求是厂商表述。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_ex5_uk",
@@ -338,7 +518,13 @@
     "published_at": "2025-10-23",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2025-10-23 官方宣布 EX5 在英国上市。",
-    "limitations": "海外与国内硬件、版本、服务有所不同。"
+    "limitations": "海外与国内硬件、版本、服务有所不同。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_map",
@@ -349,7 +535,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "报告明确 EX5、EX2 分别基于银河 E5、星愿开发，且已出口。",
-    "limitations": "关联车型家族并不证明最新国内年款与海外完全一致。"
+    "limitations": "关联车型家族并不证明最新国内年款与海外完全一致。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_star",
@@ -360,7 +552,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "目录可见吉利星愿并提供试驾选择。",
-    "limitations": "没有完整核对当前所有配置，SKU 留空。"
+    "limitations": "没有完整核对当前所有配置，SKU 留空。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "geely_ex2_sale",
@@ -371,7 +569,13 @@
     "published_at": "2025-11-06",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2025 年 11 月 EX2 在巴西正式上市。",
-    "limitations": "可支持海外销售，不能当作欧盟 eCall 配备证明。"
+    "limitations": "可支持海外销售，不能当作欧盟 eCall 配备证明。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "zeekr_7x_cn",
@@ -382,7 +586,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方中国产品入口存在。",
-    "limitations": "动态页面文本不完整，当前 SKU 未验证。"
+    "limitations": "动态页面文本不完整，当前 SKU 未验证。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "zeekr_7x_sg",
@@ -393,7 +603,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "当地产品页列 7X 和 2026 年价格有效期。",
-    "limitations": "说明海外车型家族在售；不能证明国内 900V 新版本与该海外版本同代。"
+    "limitations": "说明海外车型家族在售；不能证明国内 900V 新版本与该海外版本同代。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "li_2026",
@@ -404,7 +620,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "报告说明 2026 年 7 月新 L6 发布并开始交付，产品组合仍有 L7。",
-    "limitations": "初代 L6 的研发周期不能直接用于 2026 新 L6。"
+    "limitations": "初代 L6 的研发周期不能直接用于 2026 新 L6。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "li_l6_manual",
@@ -415,7 +637,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "手册明确名称为新一代理想 L6。",
-    "limitations": "手册不披露完整项目起点及 SKU 总数。"
+    "limitations": "手册不披露完整项目起点及 SKU 总数。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "li_l6_old",
@@ -426,7 +654,13 @@
     "published_at": "2024-04-18",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2024 首代 L6 发布报道引述李想称研发超过三年。",
-    "limitations": "历史项目参考，不给当前 2026 代评分。"
+    "limitations": "历史项目参考，不给当前 2026 代评分。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "m7_current",
@@ -437,7 +671,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026 年款的一个雷达硬件区块有五/六座各六个基本配置列，共至少十二个。",
-    "limitations": "页面并列两套雷达硬件区块；不盲目相加为 24，保守用下界十二。"
+    "limitations": "页面并列两套雷达硬件区块；不盲目相加为 24，保守用下界十二。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "m9_current",
@@ -448,7 +688,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "可见六座四款、五座三款、四座两款，至少九个基本配置列。",
-    "limitations": "雷达硬件区块、年款及选装可能重复；用下界九，不宣称总数恰为九。"
+    "limitations": "雷达硬件区块、年款及选装可能重复；用下界九，不宣称总数恰为九。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "seres_esg",
@@ -459,7 +705,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2025 报告产品召回事件为零。",
-    "limitations": "仅报告期为零，既不能证明品牌终身无召回，也不能用集团其他品牌的召回替代问界记录。"
+    "limitations": "仅报告期为零，既不能证明品牌终身无召回，也不能用集团其他品牌的召回替代问界记录。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_m03",
@@ -470,7 +722,13 @@
     "published_at": "2026-04-02",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-04-02 升级发布，发布时列六个基本版型。",
-    "limitations": "六款为发布口径；当前完整下单列表未独立核实。"
+    "limitations": "六款为发布口径；当前完整下单列表未独立核实。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_2026",
@@ -481,7 +739,13 @@
     "published_at": "2026-01-08",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-01-08 发布 P7+ 双动力、G6 与 G9；P7+ 发布时纯电与增程各两款。",
-    "limitations": "年款焕新不是从零立项；同页的全球宣传不能证明所有动力都在欧洲在售。"
+    "limitations": "年款焕新不是从零立项；同页的全球宣传不能证明所有动力都在欧洲在售。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_p7_sku",
@@ -492,7 +756,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "仅看在售车型下列增程 1550 Max 科技/旗舰、纯电 615/725 Max 旗舰，共四个。",
-    "limitations": "Ultra SE/Ultra 是选装智能升级包，另外记录硬件差异，不额外视为基础 SKU。"
+    "limitations": "Ultra SE/Ultra 是选装智能升级包，另外记录硬件差异，不额外视为基础 SKU。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_eu_sale",
@@ -503,7 +773,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方披露 G6 在德国的销量配置分布。",
-    "limitations": "可支持实际销售；国内图灵芯片与欧洲硬件需分别核对。"
+    "limitations": "可支持实际销售；国内图灵芯片与欧洲硬件需分别核对。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_p7_eu",
@@ -514,7 +790,13 @@
     "published_at": "2026-01-09",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "欧洲首发 P7+；公告预计 2026 年 4 月交付。",
-    "limitations": "该公告自身是未来交付计划，另用生产落地文件补充，不证明增程版已售。"
+    "limitations": "该公告自身是未来交付计划，另用生产落地文件补充，不证明增程版已售。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_p7_produced",
@@ -525,7 +807,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-04-07 P7+ 在奥地利 Magna 工厂正式下线，是当地继 G6/G9 后第三款。",
-    "limitations": "证明生产落地；与销售产品页合用，增程版不可自动共享该证据。"
+    "limitations": "证明生产落地；与销售产品页合用，增程版不可自动共享该证据。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_didi",
@@ -536,7 +824,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "M03 涉及滴滴汽车资产交易并于 2024 年开始交付。",
-    "limitations": "收购日是项目继承节点，不是项目研发起点。"
+    "limitations": "收购日是项目继承节点，不是项目研发起点。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "nio_es6",
@@ -547,7 +841,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方目录可见 ES6。",
-    "limitations": "BaaS 是付费方式，不能当作新车型 SKU；未确认全部配置。"
+    "limitations": "BaaS 是付费方式，不能当作新车型 SKU；未确认全部配置。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "nio_map",
@@ -558,7 +858,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "报告列 ES6/EL6 命名关系及员工福利制度。",
-    "limitations": "国际家族关系和制度存在不等于国内新硬件相同或每人缴费足额。"
+    "limitations": "国际家族关系和制度存在不等于国内新硬件相同或每人缴费足额。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "nio_el6",
@@ -569,7 +875,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026 年 9–12 月购车活动覆盖 EL6。",
-    "limitations": "与中国 ES6 当前改款版本需分别核对硬件。"
+    "limitations": "与中国 ES6 当前改款版本需分别核对硬件。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "leap_current",
@@ -580,7 +892,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "国内目录可见 B10 和 C10。",
-    "limitations": "动态订购配置未完整提取。"
+    "limitations": "动态订购配置未完整提取。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "leap_uk",
@@ -591,7 +909,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "英国价格和配置指南有 C10 与 B10。",
-    "limitations": "国内升级电压、芯片与海外硬件可能不同。"
+    "limitations": "国内升级电压、芯片与海外硬件可能不同。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "camry_cn",
@@ -602,7 +926,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "页面目前标注 2027 款凯美瑞，展示电混双擎。",
-    "limitations": "2026 款下载配置 PDF 不能直接作为 2027 款现售 SKU；整车项目起点未披露。"
+    "limitations": "2026 款下载配置 PDF 不能直接作为 2027 款现售 SKU；整车项目起点未披露。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "rav4_cn",
@@ -613,7 +943,13 @@
     "published_at": "2026-03-09",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-03-09 官方确认第六代全新荣放电混精英版交付。",
-    "limitations": "不涵盖 10 月全部 SKU；不能把全球亮相至国内上市间隔当研发周期。"
+    "limitations": "不涵盖 10 月全部 SKU；不能把全球亮相至国内上市间隔当研发周期。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "rav4_global",
@@ -624,7 +960,13 @@
     "published_at": "2025-05-20",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2025-05-20 发布第六代 RAV4 国际车型。",
-    "limitations": "发布不等于即时开始零售；国内外动力和配置不同。"
+    "limitations": "发布不等于即时开始零售；国内外动力和配置不同。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "crv_cn",
@@ -635,7 +977,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026 燃油版五项，混动版六项，合计十一基本版型。",
-    "limitations": "本样本仅合并燃油及 HEV，独立 e:PHEV 未混入；选装颜色不乘积。"
+    "limitations": "本样本仅合并燃油及 HEV，独立 e:PHEV 未混入；选装颜色不乘积。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "crv_global",
@@ -646,7 +994,13 @@
     "published_at": "2026-02-26",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "第六代先在北美、中国推出，后扩展其他市场。",
-    "limitations": "同代存在本土驾驶辅助和座椅差异，国内配置需单独核对。"
+    "limitations": "同代存在本土驾驶辅助和座椅差异，国内配置需单独核对。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "lavida_cn",
@@ -657,7 +1011,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方目录可见朗逸 Pro。",
-    "limitations": "品牌国际化不证明中国朗逸 Pro 有同代海外正式销售；SKU 动态未完整解析。"
+    "limitations": "品牌国际化不证明中国朗逸 Pro 有同代海外正式销售；SKU 动态未完整解析。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "sylphy_cn",
@@ -668,7 +1028,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "官方提供十五代轩逸产品和试驾入口，并称轩逸为全球战略车型。",
-    "limitations": "旧世代、经典、e-POWER 不混算；全球战略宣传仍需同代海外实际销售证据。"
+    "limitations": "旧世代、经典、e-POWER 不混算；全球战略宣传仍需同代海外实际销售证据。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "sylphy_launch",
@@ -679,7 +1045,13 @@
     "published_at": "2026-02-24",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2026-02-24 第十五代上市，发布时三款。",
-    "limitations": "后来配置新增与否未核查；三代同堂不等于十五代项目研发快。"
+    "limitations": "后来配置新增与否未核查；三代同堂不等于十五代项目研发快。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_xiaomi",
@@ -690,7 +1062,13 @@
     "published_at": "2025-09-19",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2025-09-19 小米汽车科技备案部分 SU7 标准版召回，以 OTA 实施。",
-    "limitations": "品牌召回历史例证；不能宣称 2026 新 SU7 或所有 YU7 在该批次。"
+    "limitations": "品牌召回历史例证；不能宣称 2026 新 SU7 或所有 YU7 在该批次。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_tesla",
@@ -701,7 +1079,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "公告涉及特斯拉上海及北京，包含部分国产 Model 3/Y。",
-    "limitations": "仅作为正式召回历史例证；个人车辆必须查 VIN，不推定完成率。"
+    "limitations": "仅作为正式召回历史例证；个人车辆必须查 VIN，不推定完成率。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_byd",
@@ -712,7 +1096,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "比亚迪汽车工业及汽车有限公司有正式召回记录。",
-    "limitations": "不同车型生产企业可能不同，不能把品牌历史视作每一生产法人无条件通过。"
+    "limitations": "不同车型生产企业可能不同，不能把品牌历史视作每一生产法人无条件通过。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_geely",
@@ -723,7 +1113,13 @@
     "published_at": "2026-08-21",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "浙江吉利汽车有正式召回银河及领克车型记录。",
-    "limitations": "不表示本样本星愿或 E5 正在该次召回中。"
+    "limitations": "不表示本样本星愿或 E5 正在该次召回中。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_zeekr",
@@ -734,7 +1130,13 @@
     "published_at": "2026-08-21",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "浙江吉利备案并委托极氪执行正式召回。",
-    "limitations": "不表示本样本 7X 正在该次召回中。"
+    "limitations": "不表示本样本 7X 正在该次召回中。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_li",
@@ -745,7 +1147,13 @@
     "published_at": "2020-11-06",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "理想品牌于 2020-11-06 已有正式召回。",
-    "limitations": "URL 路径 2023 是迁移目录，公告正文日期为 2020；不能将旧生产法人自动等同今日法人。"
+    "limitations": "URL 路径 2023 是迁移目录，公告正文日期为 2020；不能将旧生产法人自动等同今日法人。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_xpeng",
@@ -756,7 +1164,13 @@
     "published_at": "2025-09-12",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "肇庆小鹏于 2025-09-12 正式公告部分 P7+ 召回。",
-    "limitations": "不表示 G6/M03 或当前 P7+ 所有年款在本次范围内。"
+    "limitations": "不表示 G6/M03 或当前 P7+ 所有年款在本次范围内。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_nio",
@@ -767,7 +1181,13 @@
     "published_at": "2026-02-09",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "上海蔚来于 2026-02-09 正式公告部分早期车型的软件召回。",
-    "limitations": "不能将召回对象扩张为最新一代全部 ES6。"
+    "limitations": "不能将召回对象扩张为最新一代全部 ES6。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_leap",
@@ -778,7 +1198,13 @@
     "published_at": "2026-08-21",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "零跑汽车于 2026-08-21 有正式召回公告。",
-    "limitations": "不表示 C10/B10 处在本次范围内。"
+    "limitations": "不表示 C10/B10 处在本次范围内。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_camry",
@@ -789,7 +1215,13 @@
     "published_at": "2025-08-08",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "广汽丰田对部分九代凯美瑞等车型有正式召回。",
-    "limitations": "按生产批次查 VIN，不能据存在召回推定风险最低。"
+    "limitations": "按生产批次查 VIN，不能据存在召回推定风险最低。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_rav4",
@@ -800,7 +1232,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "一汽丰田长春丰越获授权公告部分 RAV4 召回。",
-    "limitations": "不表示第六代荣放在这批旧生产期间。"
+    "limitations": "不表示第六代荣放在这批旧生产期间。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_honda",
@@ -811,7 +1249,13 @@
     "published_at": "2025-01-24",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "东风本田公告部分 CR-V 等车型正式召回。",
-    "limitations": "品牌历史维度不等于 VIN 已完成修复。"
+    "limitations": "品牌历史维度不等于 VIN 已完成修复。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_vw",
@@ -822,7 +1266,13 @@
     "published_at": "2020-04-24",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "2020-04-24 大众中国、一汽大众、上汽大众正式召回，包含大众及奥迪旧车型。",
-    "limitations": "只支持品牌/已列企业的历史；与众 08 大众安徽法人需另查。"
+    "limitations": "只支持品牌/已列企业的历史；与众 08 大众安徽法人需另查。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_saic",
@@ -833,7 +1283,13 @@
     "published_at": "2017-06-12",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "上汽乘用车分公司有历史正式召回。",
-    "limitations": "集团或生产体系记录不自动授予新尚界品牌通过；当前生产法人映射待核。"
+    "limitations": "集团或生产体系记录不自动授予新尚界品牌通过；当前生产法人映射待核。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "recall_nissan",
@@ -844,7 +1300,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "东风汽车有限公司公告部分日产车型召回。",
-    "limitations": "不能推定十五代燃油轩逸属于该召回范围。"
+    "limitations": "不能推定十五代燃油轩逸属于该召回范围。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "labor_zeekr",
@@ -855,7 +1317,13 @@
     "published_at": "2025-03-20",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "包含社保、公积金补缴与监管费用的风险表述，也陈述依法提供社保。",
-    "limitations": "风险条款不是足以确定某个当前生产企业欠缴的处罚或员工级缴费证据；不据此打不缴费标签。"
+    "limitations": "风险条款不是足以确定某个当前生产企业欠缴的处罚或员工级缴费证据；不据此打不缴费标签。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "labor_geely",
@@ -866,7 +1334,13 @@
     "published_at": "2026-04-28",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "报告说明员工劳动保障相关制度和适用法规。",
-    "limitations": "制度与覆盖率不能独立证明员工级基数、到账、补缴和生产企业范围。"
+    "limitations": "制度与覆盖率不能独立证明员工级基数、到账、补缴和生产企业范围。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "labor_byd",
@@ -877,7 +1351,13 @@
     "published_at": "2025-08-01",
     "retrieved_at": "2026-10-12",
     "reviewed_facts": "岗位公示列五险一金福利。",
-    "limitations": "招聘承诺不证明全部员工实际足额缴费。"
+    "limitations": "招聘承诺不证明全部员工实际足额缴费。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "rav4_retail",
@@ -888,7 +1368,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-13",
     "reviewed_facts": "2026 RAV4 当前产品页提供价格、配置与购买/库存入口。",
-    "limitations": "只能支持国际车型家族已实际销售；不是中国车辆 eCall 或硬件等同性证明。"
+    "limitations": "只能支持国际车型家族已实际销售；不是中国车辆 eCall 或硬件等同性证明。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "camry_retail",
@@ -899,7 +1385,13 @@
     "published_at": null,
     "retrieved_at": "2026-10-13",
     "reviewed_facts": "2026 Camry 产品页提供当前销售、配置与购买入口。",
-    "limitations": "本轮只证明凯美瑞国际车型家族；中国 2027 年款的最新本土配置仍需逐版核对。"
+    "limitations": "本轮只证明凯美瑞国际车型家族；中国 2027 年款的最新本土配置仍需逐版核对。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
   },
   {
     "id": "xpeng_p7_retail",
@@ -910,6 +1402,182 @@
     "published_at": null,
     "retrieved_at": "2026-10-13",
     "reviewed_facts": "P7+ 当前购车优惠与试驾入口可见。",
-    "limitations": "欧洲纯电 P7+ 的销售证据不能自动授予中国增程版本。"
+    "limitations": "欧洲纯电 P7+ 的销售证据不能自动授予中国增程版本。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex initial research",
+      "reviewed_at": "2026-10-13",
+      "reason": "已审阅本记录摘记及适用边界；仅接受记录中的有限事实，不证明超出范围的结论。"
+    }
+  },
+  {
+    "id": "sales_2026_09_p1",
+    "title": "2026年9月汽车之家全车系月销榜 p1",
+    "url": "https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=1",
+    "publisher": "汽车之家",
+    "type": "market_dataset",
+    "published_at": null,
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "2026-09固定查询，第1页50条；对应销量名次1至50。",
+    "limitations": "平台自述行业综合销量、车系口径；不是统一的乘联分会车型零售口径。榜单可能合并多个年款或动力，不能直接证明当前SKU、开发周期、海外同等配置或具体企业的用工事实。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对月份固定为2026-09，前20与网页一致；两页合并100条名次连续、ID唯一、销量递减。仅接受有限销量与车系事实。"
+    }
+  },
+  {
+    "id": "sales_2026_09_p2",
+    "title": "2026年9月汽车之家全车系月销榜 p2",
+    "url": "https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=2",
+    "publisher": "汽车之家",
+    "type": "market_dataset",
+    "published_at": null,
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "2026-09固定查询，第2页50条；对应销量名次51至100。",
+    "limitations": "平台自述行业综合销量、车系口径；不是统一的乘联分会车型零售口径。榜单可能合并多个年款或动力，不能直接证明当前SKU、开发周期、海外同等配置或具体企业的用工事实。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对月份固定为2026-09，前20与网页一致；两页合并100条名次连续、ID唯一、销量递减。仅接受有限销量与车系事实。"
+    }
+  },
+  {
+    "id": "recall_bmw_2026",
+    "title": "华晨宝马及宝马中国正式召回公告",
+    "url": "https://www.samr.gov.cn/zlfzj/qxcpzh/zhdt/art/2026/art_d644ddd0394f420f976590a8d1043bdc.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2026-03-24",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "公告载有华晨宝马国产5系及宝马中国进口5系、7系、M5的正式召回计划。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "recall_chery_2026",
+    "title": "奇瑞探索06和瑞虎7正式召回公告",
+    "url": "https://www.samr.gov.cn/zw/zh/art/2026/art_888df94598974910954a89bf6846fa6f.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2026-01-23",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "奇瑞汽车股份有限公司备案探索06和全新瑞虎7 1.6T车型正式召回计划。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "recall_mercedes_2026",
+    "title": "北京奔驰正式召回公告",
+    "url": "https://www.samr.gov.cn/zw/zh/art/2026/art_fb338464c01e4c3a86af399bee0a7c80.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2026-05-29",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "北京奔驰备案部分国产C级、GLC等车型正式召回计划，实施起点为2026-08-10。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "recall_gac_honda_2025",
+    "title": "广汽本田及东风本田正式召回公告",
+    "url": "https://www.samr.gov.cn/zw/zh/art/2025/art_c35023d2421548e1ad3adae99014bab6.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2025-06-27",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "公告明确区分广汽本田的雅阁、皓影等，以及东风本田的CR-V等车型召回计划。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "recall_buick_2025",
+    "title": "别克微蓝6正式召回公告",
+    "url": "https://www.samr.gov.cn/zw/zh/art/2025/art_f87d301132a54c59a879115dfc6c8298.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2025-03-07",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "上汽通用备案别克微蓝6及雪佛兰畅巡正式召回计划；别克品牌在公告中明确出现。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "recall_firefly_2026",
+    "title": "萤火虫纯电车型正式召回公告",
+    "url": "https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_3a459894a1344a51ad8f44ccc99f21c4.html",
+    "publisher": "国家市场监督管理总局",
+    "type": "recall_notice",
+    "published_at": "2026-09-18",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "蔚来汽车科技（安徽）有限公司备案部分萤火虫纯电动汽车正式召回，涉及686辆。",
+    "limitations": "这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "核对监管正文中的发布日、品牌、生产企业及正式召回计划；仅用于品牌历史条件。"
+    }
+  },
+  {
+    "id": "firefly_global_2026",
+    "title": "NIO挪威披露firefly国际推出与交付情况",
+    "url": "https://www.nio.com/no_NO/news/worldurbancar2026",
+    "publisher": "NIO Norway",
+    "type": "official_company_disclosure",
+    "published_at": "2026-04-07",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "厂商披露firefly已在三个洲11个国家推出，并于3月29日达到全球累计5万交付。作为存在国际产品家族的公开公司证据。",
+    "limitations": "厂商披露，不是本仓库独立审计。不能证明中国当前所有年款、动力或安全硬件与海外完全相同，亦不把获奖当国内车辆安全认证。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "接受有限国际产品家族事实；不采纳营销中的质量和满意度指标为安全计分。"
+    }
+  },
+  {
+    "id": "mg4_global_2026",
+    "title": "MG欧洲说明新MG4 EV Urban与现有MG4的区别",
+    "url": "https://news.mgmotor.eu/at/press/mg4-ev-urban-fuer-die-stadt-und-darueber-hinaus/",
+    "publisher": "MG Motor Europe",
+    "type": "official_company_disclosure",
+    "published_at": "2026-06-24",
+    "retrieved_at": "2026-10-14",
+    "reviewed_facts": "欧洲官方发布MG4 EV Urban，并明确其新前驱平台与现有后驱/四驱MG4是不同产品；存在海外MG4命名家族。",
+    "limitations": "不能仅凭同名就把后驱旧MG4、MG4 EV Urban及中国当前MG4视作相同年款或相同配置；海外发布和定价不是中国SKU总数。",
+    "review": {
+      "status": "accepted",
+      "reviewer": "Codex public-source review",
+      "reviewed_at": "2026-10-14",
+      "reason": "记录海外产品与硬件差异，保留中国销量车系内部版本匹配缺口。"
+    }
   }
 ]

@@ -1299,5 +1299,3049 @@
     },
     "manufacturer_entity": "not_verified",
     "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8171",
+    "name": "钛7（车系待细分）",
+    "brand_id": "fangchengbao",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7538",
+    "name": "元UP（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8433",
+    "name": "零跑A10（车系待细分）",
+    "brand_id": "leap",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8241",
+    "name": "长安启源Q05（车系待细分）",
+    "brand_id": "qiyuan",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8511",
+    "name": "宋Ultra（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6428",
+    "name": "卡罗拉锐放（车系待细分）",
+    "brand_id": "faw_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8087",
+    "name": "海狮06（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8563",
+    "name": "MG 07（车系待细分）",
+    "brand_id": "mg",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7588",
+    "name": "海豹06（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8585",
+    "name": "缤果Pro（车系待细分）",
+    "brand_id": "wuling",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6651",
+    "name": "MG4（车系待细分）",
+    "brand_id": "mg",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "mg4_global_2026"
+      ],
+      "note": "存在海外MG4命名家族，但官方说明MG4 EV Urban和旧后驱MG4平台不同；国内销量车系的世代/硬件匹配未完整核实，按50分的部分对应等级，不自动通过全部全球化条件。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5714",
+    "name": "宏光MINIEV（车系待细分）",
+    "brand_id": "wuling",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6004",
+    "name": "星越L（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4274",
+    "name": "途观L（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8499",
+    "name": "QQ3 EV（车系待细分）",
+    "brand_id": "chery",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7740",
+    "name": "深蓝S05（车系待细分）",
+    "brand_id": "deepal",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7231",
+    "name": "奔腾小马（车系待细分）",
+    "brand_id": "bestune",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8305",
+    "name": "小鹏MONA L03（车系待细分）",
+    "brand_id": "xpeng",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8569",
+    "name": "零跑A05（车系待细分）",
+    "brand_id": "leap",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6814",
+    "name": "博越L（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4744",
+    "name": "探岳（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8102",
+    "name": "大唐（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_496",
+    "name": "迈腾（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4701",
+    "name": "缤越（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5964",
+    "name": "秦PLUS（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4427",
+    "name": "蔚来ES8（车系待细分）",
+    "brand_id": "nio",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8245",
+    "name": "AION i60（车系待细分）",
+    "brand_id": "unverified_AION i60",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6414",
+    "name": "锋兰达（车系待细分）",
+    "brand_id": "gac_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_442",
+    "name": "速腾（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_528",
+    "name": "帕萨特（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_66",
+    "name": "宝马3系（车系待细分）",
+    "brand_id": "bmw",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7712",
+    "name": "铂智3X（车系待细分）",
+    "brand_id": "gac_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6674",
+    "name": "长安Lumin（车系待细分）",
+    "brand_id": "changan",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4693",
+    "name": "瑞虎8（车系待细分）",
+    "brand_id": "chery",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5770",
+    "name": "长城大狗（车系待细分）",
+    "brand_id": "gwm",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p1"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_526",
+    "name": "卡罗拉（车系待细分）",
+    "brand_id": "faw_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8586",
+    "name": "长城H10（车系待细分）",
+    "brand_id": "gwm",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5472",
+    "name": "威兰达（车系待细分）",
+    "brand_id": "gac_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5771",
+    "name": "北京越野BJ30（车系待细分）",
+    "brand_id": "baic_offroad",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8529",
+    "name": "问界M6（车系待细分）",
+    "brand_id": "aito",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_5273",
+    "name": "星瑞（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7982",
+    "name": "海狮05 EV（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4962",
+    "name": "亚洲龙（车系待细分）",
+    "brand_id": "faw_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_197",
+    "name": "奔驰E级（车系待细分）",
+    "brand_id": "mercedes_benz",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7807",
+    "name": "海狮05 DM-i（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_18",
+    "name": "奥迪A6L（车系待细分）",
+    "brand_id": "audi",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_3862",
+    "name": "奔驰GLC（车系待细分）",
+    "brand_id": "mercedes_benz",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8485",
+    "name": "海豹08（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8509",
+    "name": "蔚来ES9（车系待细分）",
+    "brand_id": "nio",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8283",
+    "name": "华境S（车系待细分）",
+    "brand_id": "huajing",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8183",
+    "name": "理想i6（车系待细分）",
+    "brand_id": "li",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7990",
+    "name": "firefly萤火虫（车系待细分）",
+    "brand_id": "firefly",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "firefly_global_2026"
+      ],
+      "note": "已取得NIO挪威关于国际产品家族、国际推出及全球交付的披露；所列中国具体年款/配置与海外等同性仍待核。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8731",
+    "name": "小米澎程N70（车系待细分）",
+    "brand_id": "xiaomi_pengcheng",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8006",
+    "name": "零跑B01（车系待细分）",
+    "brand_id": "leap",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8086",
+    "name": "极狐贝塔T1（车系待细分）",
+    "brand_id": "arcfox",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8651",
+    "name": "ID. ERA 5S（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8190",
+    "name": "极狐贝塔S3（车系待细分）",
+    "brand_id": "arcfox",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_3556",
+    "name": "帝豪（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8658",
+    "name": "银河TT（车系待细分）",
+    "brand_id": "geely",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_65",
+    "name": "宝马5系（车系待细分）",
+    "brand_id": "bmw",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8224",
+    "name": "小鹏GX（车系待细分）",
+    "brand_id": "xpeng",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6664",
+    "name": "艾瑞泽8（车系待细分）",
+    "brand_id": "chery",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8468",
+    "name": "星光L（车系待细分）",
+    "brand_id": "wuling",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7981",
+    "name": "海豹05 DM-i（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7210",
+    "name": "坦克300新能源（车系待细分）",
+    "brand_id": "tank",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4410",
+    "name": "红旗H5（车系待细分）",
+    "brand_id": "hongqi",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7853",
+    "name": "风云A9（车系待细分）",
+    "brand_id": "chery_fulwin",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4851",
+    "name": "奥迪Q5L（车系待细分）",
+    "brand_id": "audi",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8660",
+    "name": "风云T7（车系待细分）",
+    "brand_id": "chery_fulwin",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_7674",
+    "name": "零跑C16（车系待细分）",
+    "brand_id": "leap",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6548",
+    "name": "宝马X5（车系待细分）",
+    "brand_id": "bmw",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4745",
+    "name": "途岳（车系待细分）",
+    "brand_id": "volkswagen",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8189",
+    "name": "缤果S（车系待细分）",
+    "brand_id": "wuling",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_78",
+    "name": "雅阁（车系待细分）",
+    "brand_id": "gac_honda",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_8463",
+    "name": "秦MAX（车系待细分）",
+    "brand_id": "byd",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_6272",
+    "name": "赛那SIENNA（车系待细分）",
+    "brand_id": "gac_toyota",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_4683",
+    "name": "捷途X70（车系待细分）",
+    "brand_id": "jetour",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_3554",
+    "name": "昂科威Plus（车系待细分）",
+    "brand_id": "buick",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_3170",
+    "name": "奥迪A3（车系待细分）",
+    "brand_id": "audi",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "sales_ah_2429",
+    "name": "逸动（车系待细分）",
+    "brand_id": "changan",
+    "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+    "powertrains": [
+      "待核（销量榜可能合并动力）"
+    ],
+    "sale_status": "sales_cohort_only",
+    "sale_sources": [
+      "sales_2026_09_p2"
+    ],
+    "sale_checked_at": "2026-10-14",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "not_verified",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "入选销量榜不提供本代立项或整车项目跨度，不能由销量、首次亮相或品牌成立推算。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "尚未核实所列本代及动力分支在海外实际销售与国内对应关系。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "月销量不提供完整现售配置表；旧年款和多个动力可能合并，不能由榜单或起售价推算SKU。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "as_of": "2026-10-12",
+  "version": "1.1.0",
+  "as_of": "2026-10-14",
   "results": [
     {
       "id": "shangjie_h5",
@@ -33,15 +33,18 @@
       "unresolved": [
         "全球化",
         "正式召回历史",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
         "正式召回历史",
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应"
       ],
       "status": "购前条件待核",
+      "known_weight": 50,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           63.0,
@@ -83,16 +86,19 @@
       },
       "unresolved": [
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 55,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           40.0,
@@ -134,7 +140,7 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [
@@ -142,10 +148,13 @@
       ],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "偏好冲突，优先核查",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           15.0,
@@ -188,14 +197,17 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应"
       ],
       "status": "购前条件待核",
+      "known_weight": 25,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -238,16 +250,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -289,13 +304,16 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
-        "当前用工主体足额五险一金"
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工"
       ],
       "status": "购前条件待核",
+      "known_weight": 45,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           1.5,
@@ -337,13 +355,16 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
-        "当前用工主体足额五险一金"
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工"
       ],
       "status": "购前条件待核",
+      "known_weight": 45,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           1.5,
@@ -385,16 +406,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -436,15 +460,18 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -487,16 +514,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -539,16 +569,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -591,16 +624,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -642,16 +678,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -693,13 +732,16 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
-        "当前用工主体足额五险一金"
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工"
       ],
       "status": "购前条件待核",
+      "known_weight": 45,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           1.5,
@@ -741,16 +783,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -793,16 +838,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -845,16 +893,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -898,7 +949,7 @@
         "开发周期",
         "全球化",
         "正式召回历史",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [
         "SKU 已达较多阈值"
@@ -906,9 +957,12 @@
       "missing_prerequisites": [
         "正式召回历史",
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应"
       ],
       "status": "偏好冲突，优先核查",
+      "known_weight": 10,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           5.0,
@@ -952,7 +1006,7 @@
         "开发周期",
         "全球化",
         "正式召回历史",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [
         "SKU 已达较多阈值"
@@ -960,9 +1014,12 @@
       "missing_prerequisites": [
         "正式召回历史",
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应"
       ],
       "status": "偏好冲突，优先核查",
+      "known_weight": 10,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           5.0,
@@ -1005,16 +1062,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1056,15 +1116,18 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1106,13 +1169,16 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
-        "当前用工主体足额五险一金"
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工"
       ],
       "status": "购前条件待核",
+      "known_weight": 45,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1155,14 +1221,17 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应"
       ],
       "status": "购前条件待核",
+      "known_weight": 25,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1204,16 +1273,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -1255,16 +1327,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -1306,16 +1381,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           7.5,
@@ -1357,15 +1435,18 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1407,15 +1488,18 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1457,15 +1541,18 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金"
+        "用工保障（缴费与外包）"
       ],
       "objections": [
         "SKU 已达较多阈值"
       ],
       "missing_prerequisites": [
-        "当前用工主体足额五险一金"
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工"
       ],
       "status": "偏好冲突，优先核查",
+      "known_weight": 45,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           5.0,
@@ -1508,16 +1595,19 @@
       "unresolved": [
         "开发周期",
         "全球化",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           0.0,
@@ -1559,16 +1649,19 @@
       },
       "unresolved": [
         "开发周期",
-        "足额五险一金",
+        "用工保障（缴费与外包）",
         "SKU"
       ],
       "objections": [],
       "missing_prerequisites": [
         "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
         "当前车型全球化对应",
         "完整现售 SKU"
       ],
       "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
       "scenarios": {
         "cycle_first": [
           12.0,
@@ -1577,6 +1670,4455 @@
         "governance_first": [
           16.0,
           76.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8171",
+      "name": "钛7（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7538",
+      "name": "元UP（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8433",
+      "name": "零跑A10（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8241",
+      "name": "长安启源Q05（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8511",
+      "name": "宋Ultra（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6428",
+      "name": "卡罗拉锐放（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8087",
+      "name": "海狮06（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8563",
+      "name": "MG 07（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7588",
+      "name": "海豹06（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8585",
+      "name": "缤果Pro（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6651",
+      "name": "MG4（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 10.0,
+      "high": 90.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 20,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          92.5
+        ],
+        "governance_first": [
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5714",
+      "name": "宏光MINIEV（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6004",
+      "name": "星越L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4274",
+      "name": "途观L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8499",
+      "name": "QQ3 EV（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7740",
+      "name": "深蓝S05（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7231",
+      "name": "奔腾小马（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8305",
+      "name": "小鹏MONA L03（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8569",
+      "name": "零跑A05（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6814",
+      "name": "博越L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4744",
+      "name": "探岳（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8102",
+      "name": "大唐（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_496",
+      "name": "迈腾（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4701",
+      "name": "缤越（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5964",
+      "name": "秦PLUS（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4427",
+      "name": "蔚来ES8（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8245",
+      "name": "AION i60（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6414",
+      "name": "锋兰达（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_442",
+      "name": "速腾（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_528",
+      "name": "帕萨特（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_66",
+      "name": "宝马3系（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7712",
+      "name": "铂智3X（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6674",
+      "name": "长安Lumin（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4693",
+      "name": "瑞虎8（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5770",
+      "name": "长城大狗（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_526",
+      "name": "卡罗拉（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8586",
+      "name": "长城H10（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5472",
+      "name": "威兰达（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5771",
+      "name": "北京越野BJ30（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8529",
+      "name": "问界M6（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_5273",
+      "name": "星瑞（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7982",
+      "name": "海狮05 EV（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4962",
+      "name": "亚洲龙（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_197",
+      "name": "奔驰E级（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7807",
+      "name": "海狮05 DM-i（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_18",
+      "name": "奥迪A6L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_3862",
+      "name": "奔驰GLC（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8485",
+      "name": "海豹08（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8509",
+      "name": "蔚来ES9（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8283",
+      "name": "华境S（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8183",
+      "name": "理想i6（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7990",
+      "name": "firefly萤火虫（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 35,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          75.0
+        ],
+        "governance_first": [
+          0.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8731",
+      "name": "小米澎程N70（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8006",
+      "name": "零跑B01（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8086",
+      "name": "极狐贝塔T1（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8651",
+      "name": "ID. ERA 5S（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8190",
+      "name": "极狐贝塔S3（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_3556",
+      "name": "帝豪（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8658",
+      "name": "银河TT（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_65",
+      "name": "宝马5系（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8224",
+      "name": "小鹏GX（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6664",
+      "name": "艾瑞泽8（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8468",
+      "name": "星光L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7981",
+      "name": "海豹05 DM-i（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7210",
+      "name": "坦克300新能源（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4410",
+      "name": "红旗H5（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7853",
+      "name": "风云A9（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4851",
+      "name": "奥迪Q5L（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8660",
+      "name": "风云T7（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_7674",
+      "name": "零跑C16（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6548",
+      "name": "宝马X5（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4745",
+      "name": "途岳（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8189",
+      "name": "缤果S（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_78",
+      "name": "雅阁（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_8463",
+      "name": "秦MAX（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_6272",
+      "name": "赛那SIENNA（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_4683",
+      "name": "捷途X70（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_3554",
+      "name": "昂科威Plus（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_3170",
+      "name": "奥迪A3（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 15,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "sales_ah_2429",
+      "name": "逸动（车系待细分）",
+      "scope": "2026年9月榜单车系口径；本代年款、动力分支、生产主体及现售版本尚待拆分核验",
+      "low": 0.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "用工保障（缴费与外包）",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前用工主体无外包/派遣员工",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "known_weight": 0,
+      "outsourcing_status": "not_verified",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          100.0
+        ],
+        "governance_first": [
+          0.0,
+          100.0
         ]
       }
     }

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 阅读贡献与证据审核说明
+    url: https://github.com/ElonX90/QuickCarBuyingGuide/blob/main/CONTRIBUTING.md
+    about: 查看可接受证据、审核状态和复算方法

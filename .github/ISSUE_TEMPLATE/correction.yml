@@ -1,0 +1,23 @@
+name: 争议事实与纠错
+description: 用相反证据指出范围、月份、主体或计算问题
+title: '[纠错] '
+body:
+  - type: input
+    id: existing
+    attributes:
+      label: 现有车型ID、来源ID或具体页面及字段
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 原结论的问题及建议改法
+      description: 说明车型版本、主体、日期、地区和影响的指数项。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 原始证据链接、具体位置、相反事实与适用边界
+    validations:
+      required: true

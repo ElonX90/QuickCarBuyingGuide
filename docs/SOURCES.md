@@ -13,6 +13,8 @@
 
 适用边界：存在法定例外；并非要求当日全部存量汽车加装。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="cn_ecall"></a>
 ## cn_ecall · GB 45672-2025 标准信息
 
@@ -21,6 +23,8 @@
 车载事故紧急呼叫系统；发布 2025-04-25，实施 2027-07-01。
 
 适用边界：对具体车型的过渡安排和技术范围应查标准全文。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="ota_rules"></a>
 ## ota_rules · 智能网联汽车准入、召回和 OTA 管理通知
@@ -31,6 +35,8 @@
 
 适用边界：普通功能更新与消除安全缺陷的召回须区分。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="social_law"></a>
 ## social_law · 中华人民共和国社会保险法
 
@@ -39,6 +45,8 @@
 用人单位依法缴纳社会保险；职工有权查询缴费记录。
 
 适用边界：具体基数、上下限和缴费比例还需核对所在地当年政策。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="social_base"></a>
 ## social_base · 缴费工资口径说明
@@ -49,6 +57,8 @@
 
 适用边界：天津说明不能直接替代其他地区的比例、上下限规则。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="market_context"></a>
 ## market_context · 乘联分会官方发布入口
 
@@ -57,6 +67,8 @@
 最新发布区列有 2026 年 9 月全国乘用车市场分析。
 
 适用边界：本轮文章正文未完整解析，不据此填写车型销量或声称样本为销量前 30。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="h5_cycle"></a>
 ## h5_cycle · 上汽新能源，变天了
@@ -67,6 +79,8 @@
 
 适用边界：官方转载的媒体材料；无原始立项文件，未给具体起止日；已有平台和供应链研发不在这 15 个月中。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="h5_current"></a>
 ## h5_current · 尚界 H5 产品页
 
@@ -75,6 +89,8 @@
 官方目录可见 H5，包含纯电和增程；页面已使用 Max+ 命名。
 
 适用边界：年款升级的追加研发工时未披露。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="h5_sku"></a>
 ## h5_sku · 尚界 H5 参数配置表
@@ -85,6 +101,8 @@
 
 适用边界：计数不含颜色与选装；配置页可见不等于特定地区有现车。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="unyx_cycle"></a>
 ## unyx_cycle · 与众 08 开启预售
 
@@ -93,6 +111,8 @@
 官方称从最初草图至量产约 24 个月。
 
 适用边界：这是草图至量产口径，不是有文件支持的立项至零售上市日期差。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="unyx_sale"></a>
 ## unyx_sale · 与众 08 正式上市报道
@@ -103,6 +123,8 @@
 
 适用边界：是发布时计数，不作为 10 月现售 SKU 的确定总数。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="vw_current"></a>
 ## vw_current · 大众汽车三款新品官方发布
 
@@ -111,6 +133,8 @@
 官方品牌发布材料包含与众 08。
 
 适用边界：品牌在其他地区销售其他车型，不代表与众 08 已在海外正式零售。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="audi_cycle"></a>
 ## audi_cycle · 奥迪 E5 Sportback 上市媒体沟通会纪实
@@ -121,6 +145,8 @@ Q12 提到约 24 个月开发周期；奥迪高管接续回答解释并行开发
 
 适用边界：数字出现在记者问题中，高管未单独重复精确数字；仅记旁证，不给未知月数编造上下界，不等于原始立项记录。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="audi_global"></a>
 ## audi_global · AUDI E5 Sportback 首发官方发布
 
@@ -129,6 +155,8 @@ Q12 提到约 24 个月开发周期；奥迪高管接续回答解释并行开发
 明确为中国专属产品合作；官方称首款车开发时间缩短 30%。
 
 适用边界：30% 不给原基数，不能独立反推绝对月数；全球品牌不等于每一款车全球销售。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="audi_current"></a>
 ## audi_current · 上汽奥迪 AUDI 新闻目录
@@ -139,6 +167,8 @@ E5 Sportback 有星钻特别版、钦定性能 quattro 等后续版本信息。
 
 适用边界：不能继续把最初四款发布数当现售 SKU 总数；目录不完整证明全部版本仍可订。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="cea_18"></a>
 ## cea_18 · 大众 CEA 区域电子电气架构量产
 
@@ -147,6 +177,8 @@ E5 Sportback 有星钻特别版、钦定性能 quattro 等后续版本信息。
 CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产。
 
 适用边界：18 个月是架构项目，不能填写成与众 07 整车立项至上市周期。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xiaomi_su7"></a>
 ## xiaomi_su7 · 新一代 SU7 官方产品页
@@ -157,6 +189,8 @@ CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产�
 
 适用边界：不含单独系列 SU7 Ultra；尚未披露该代整车项目起点。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xiaomi_yu7"></a>
 ## xiaomi_yu7 · YU7 官方产品页
 
@@ -165,6 +199,8 @@ CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产�
 官方目录有 YU7 纯电 SUV。
 
 适用边界：2025 发布计数不能覆盖 2026 新增版本。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xiaomi_2026"></a>
 ## xiaomi_2026 · 小米 2026 一季度业绩报告
@@ -175,6 +211,8 @@ CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产�
 
 适用边界：用于发现 SKU 时间漂移；不推定当前全系列总数。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xiaomi_europe"></a>
 ## xiaomi_europe · Xiaomi Auto 全球官方页面
 
@@ -183,6 +221,8 @@ CEA 电子电气架构从概念至量产约 18 个月；与众 07 同期投产�
 页面将 2027 年进入欧洲作为未来计划。
 
 适用边界：计划不等于截至检索日已销售；也不用于证明全球所有其他地区均未销售。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="tesla_sku"></a>
 ## tesla_sku · Tesla 中国在售车型对比
@@ -193,6 +233,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：色漆、轮毂、软件包不做笛卡尔积；Model Y L 另案不混入。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="tesla_3_uk"></a>
 ## tesla_3_uk · Model 3 英国官网
 
@@ -201,6 +243,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 英国官网存在 Model 3 销售产品入口。
 
 适用边界：可支持国际车型家族，不能认证中国 VIN 的 eCall 或硬件一致性。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="tesla_y_uk"></a>
 ## tesla_y_uk · Model Y 英国官网
@@ -211,6 +255,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：不外推中国专属加长版本 Y L。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="byd_manual"></a>
 ## byd_manual · 比亚迪车型手册目录
 
@@ -219,6 +265,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 目录可见第三代元 PLUS、宋 Pro DM-i 飞驰版、2026 款秦 L DM-i。
 
 适用边界：提供车型与年款识别；未完整得到当前各版订购名单。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="byd_seagull"></a>
 ## byd_seagull · 海鸥智驾版官方页面
@@ -229,6 +277,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：页面未完整确认最新年款和当前全部 SKU；按车系研究，不宣称覆盖最新所有配置。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="byd_dolphin"></a>
 ## byd_dolphin · 海豚智驾版官方页面
 
@@ -237,6 +287,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 海豚系列官方目录可见。
 
 适用边界：不把旧年款目录的配置数当最新总数。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="byd_dolphin_uk"></a>
 ## byd_dolphin_uk · BYD DOLPHIN 英国配置器
@@ -247,6 +299,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：英国车尺寸、配置及年款可能与中国有差别。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="byd_surf_map"></a>
 ## byd_surf_map · DOLPHIN SURF 百万台官方说明
 
@@ -255,6 +309,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 厂商将 SEAGULL、DOLPHIN MINI、DOLPHIN SURF 作为不同市场名称说明。
 
 适用边界：是车型家族映射；中国海鸥与欧洲 Surf 不是相同配置的直接证明。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="geely_e5"></a>
 ## geely_e5 · 2026 款银河 E5 产品与配置
@@ -265,6 +321,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：下方部分参数表仅呈现四列，应结合上方五款价格卡核对，不能漏掉星舰版。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="geely_e5_launch"></a>
 ## geely_e5_launch · E5 全球设计官方发布
 
@@ -273,6 +331,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2024-08-03 E5 发布，官方说明从开始面向全球并开发左右舵。
 
 适用边界：不披露整车立项日；满足多国要求是厂商表述。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="geely_ex5_uk"></a>
 ## geely_ex5_uk · EX5 在英国上市
@@ -283,6 +343,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：海外与国内硬件、版本、服务有所不同。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="geely_map"></a>
 ## geely_map · 吉利 2025 年度报告
 
@@ -291,6 +353,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 报告明确 EX5、EX2 分别基于银河 E5、星愿开发，且已出口。
 
 适用边界：关联车型家族并不证明最新国内年款与海外完全一致。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="geely_star"></a>
 ## geely_star · 吉利中国车型目录
@@ -301,6 +365,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：没有完整核对当前所有配置，SKU 留空。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="geely_ex2_sale"></a>
 ## geely_ex2_sale · EX2 在巴西正式上市
 
@@ -309,6 +375,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2025 年 11 月 EX2 在巴西正式上市。
 
 适用边界：可支持海外销售，不能当作欧盟 eCall 配备证明。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="zeekr_7x_cn"></a>
 ## zeekr_7x_cn · 极氪 7X 中国官网
@@ -319,6 +387,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：动态页面文本不完整，当前 SKU 未验证。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="zeekr_7x_sg"></a>
 ## zeekr_7x_sg · 极氪 7X 新加坡产品页
 
@@ -327,6 +397,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 当地产品页列 7X 和 2026 年价格有效期。
 
 适用边界：说明海外车型家族在售；不能证明国内 900V 新版本与该海外版本同代。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="li_2026"></a>
 ## li_2026 · 理想 2026 中期报告
@@ -337,6 +409,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：初代 L6 的研发周期不能直接用于 2026 新 L6。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="li_l6_manual"></a>
 ## li_l6_manual · 新一代理想 L6 官方用户手册
 
@@ -345,6 +419,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 手册明确名称为新一代理想 L6。
 
 适用边界：手册不披露完整项目起点及 SKU 总数。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="li_l6_old"></a>
 ## li_l6_old · 理想 L6 发布报道及 CEO 表述
@@ -355,6 +431,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：历史项目参考，不给当前 2026 代评分。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="m7_current"></a>
 ## m7_current · 问界 M7 官方配置表
 
@@ -363,6 +441,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2026 年款的一个雷达硬件区块有五/六座各六个基本配置列，共至少十二个。
 
 适用边界：页面并列两套雷达硬件区块；不盲目相加为 24，保守用下界十二。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="m9_current"></a>
 ## m9_current · 问界 M9 官方配置表
@@ -373,6 +453,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：雷达硬件区块、年款及选装可能重复；用下界九，不宣称总数恰为九。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="seres_esg"></a>
 ## seres_esg · 赛力斯 2025 ESG 报告公司公告
 
@@ -381,6 +463,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2025 报告产品召回事件为零。
 
 适用边界：仅报告期为零，既不能证明品牌终身无召回，也不能用集团其他品牌的召回替代问界记录。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xpeng_m03"></a>
 ## xpeng_m03 · 2026 款 MONA M03 官方上市发布
@@ -391,6 +475,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：六款为发布口径；当前完整下单列表未独立核实。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xpeng_2026"></a>
 ## xpeng_2026 · 小鹏 2026 全球新品发布
 
@@ -399,6 +485,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2026-01-08 发布 P7+ 双动力、G6 与 G9；P7+ 发布时纯电与增程各两款。
 
 适用边界：年款焕新不是从零立项；同页的全球宣传不能证明所有动力都在欧洲在售。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xpeng_p7_sku"></a>
 ## xpeng_p7_sku · 2026 P7+ 现售配置表
@@ -409,6 +497,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：Ultra SE/Ultra 是选装智能升级包，另外记录硬件差异，不额外视为基础 SKU。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xpeng_eu_sale"></a>
 ## xpeng_eu_sale · 小鹏德国与欧洲 2026 一季度销售说明
 
@@ -417,6 +507,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 官方披露 G6 在德国的销量配置分布。
 
 适用边界：可支持实际销售；国内图灵芯片与欧洲硬件需分别核对。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xpeng_p7_eu"></a>
 ## xpeng_p7_eu · P7+ 欧洲首发
@@ -427,6 +519,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 
 适用边界：该公告自身是未来交付计划，另用生产落地文件补充，不证明增程版已售。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xpeng_p7_produced"></a>
 ## xpeng_p7_produced · 小鹏 2026 年 4 月经营说明
 
@@ -435,6 +529,8 @@ Model 3 四个基本版本；Model Y 五项中有独立加长 Model Y L，本表
 2026-04-07 P7+ 在奥地利 Magna 工厂正式下线，是当地继 G6/G9 后第三款。
 
 适用边界：证明生产落地；与销售产品页合用，增程版不可自动共享该证据。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="xpeng_didi"></a>
 ## xpeng_didi · 小鹏 2025 年 20-F
@@ -445,6 +541,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：收购日是项目继承节点，不是项目研发起点。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="nio_es6"></a>
 ## nio_es6 · 蔚来 ES6 产品页
 
@@ -453,6 +551,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 官方目录可见 ES6。
 
 适用边界：BaaS 是付费方式，不能当作新车型 SKU；未确认全部配置。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="nio_map"></a>
 ## nio_map · 蔚来 2025 年 20-F
@@ -463,6 +563,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：国际家族关系和制度存在不等于国内新硬件相同或每人缴费足额。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="nio_el6"></a>
 ## nio_el6 · 蔚来挪威 2026 周年购车活动
 
@@ -471,6 +573,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 2026 年 9–12 月购车活动覆盖 EL6。
 
 适用边界：与中国 ES6 当前改款版本需分别核对硬件。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="leap_current"></a>
 ## leap_current · 零跑中国官方车型目录
@@ -481,6 +585,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：动态订购配置未完整提取。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="leap_uk"></a>
 ## leap_uk · 零跑英国价格与配置指南
 
@@ -489,6 +595,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 英国价格和配置指南有 C10 与 B10。
 
 适用边界：国内升级电压、芯片与海外硬件可能不同。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="camry_cn"></a>
 ## camry_cn · 凯美瑞中国官网
@@ -499,6 +607,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：2026 款下载配置 PDF 不能直接作为 2027 款现售 SKU；整车项目起点未披露。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="rav4_cn"></a>
 ## rav4_cn · 第六代荣放电混版本上市交付
 
@@ -507,6 +617,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 2026-03-09 官方确认第六代全新荣放电混精英版交付。
 
 适用边界：不涵盖 10 月全部 SKU；不能把全球亮相至国内上市间隔当研发周期。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="rav4_global"></a>
 ## rav4_global · 2026 第六代 RAV4 官方发布
@@ -517,6 +629,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：发布不等于即时开始零售；国内外动力和配置不同。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="crv_cn"></a>
 ## crv_cn · CR-V 全球 30 年荣耀款产品页
 
@@ -525,6 +639,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 2026 燃油版五项，混动版六项，合计十一基本版型。
 
 适用边界：本样本仅合并燃油及 HEV，独立 e:PHEV 未混入；选装颜色不乘积。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="crv_global"></a>
 ## crv_global · CR-V 第六代全球沿革资料
@@ -535,6 +651,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：同代存在本土驾驶辅助和座椅差异，国内配置需单独核对。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="lavida_cn"></a>
 ## lavida_cn · 朗逸 Pro 官方产品页
 
@@ -543,6 +661,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 官方目录可见朗逸 Pro。
 
 适用边界：品牌国际化不证明中国朗逸 Pro 有同代海外正式销售；SKU 动态未完整解析。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="sylphy_cn"></a>
 ## sylphy_cn · 十五代轩逸官方产品页
@@ -553,6 +673,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：旧世代、经典、e-POWER 不混算；全球战略宣传仍需同代海外实际销售证据。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="sylphy_launch"></a>
 ## sylphy_launch · 十五代轩逸官方上市发布
 
@@ -561,6 +683,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 2026-02-24 第十五代上市，发布时三款。
 
 适用边界：后来配置新增与否未核查；三代同堂不等于十五代项目研发快。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_xiaomi"></a>
 ## recall_xiaomi · 小米 SU7 标准版正式召回
@@ -571,6 +695,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：品牌召回历史例证；不能宣称 2026 新 SU7 或所有 YU7 在该批次。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_tesla"></a>
 ## recall_tesla · 特斯拉国产及进口纯电车正式召回
 
@@ -579,6 +705,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 公告涉及特斯拉上海及北京，包含部分国产 Model 3/Y。
 
 适用边界：仅作为正式召回历史例证；个人车辆必须查 VIN，不推定完成率。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_byd"></a>
 ## recall_byd · 比亚迪海豚及元 PLUS 召回
@@ -589,6 +717,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不同车型生产企业可能不同，不能把品牌历史视作每一生产法人无条件通过。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_geely"></a>
 ## recall_geely · 吉利银河与领克车型召回
 
@@ -597,6 +727,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 浙江吉利汽车有正式召回银河及领克车型记录。
 
 适用边界：不表示本样本星愿或 E5 正在该次召回中。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_zeekr"></a>
 ## recall_zeekr · 极氪 007 和 X 召回
@@ -607,6 +739,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不表示本样本 7X 正在该次召回中。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_li"></a>
 ## recall_li · 理想 ONE 召回
 
@@ -615,6 +749,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 理想品牌于 2020-11-06 已有正式召回。
 
 适用边界：URL 路径 2023 是迁移目录，公告正文日期为 2020；不能将旧生产法人自动等同今日法人。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_xpeng"></a>
 ## recall_xpeng · 小鹏 P7+ 召回
@@ -625,6 +761,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不表示 G6/M03 或当前 P7+ 所有年款在本次范围内。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_nio"></a>
 ## recall_nio · 蔚来 ES8/ES6/EC6 召回
 
@@ -633,6 +771,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 上海蔚来于 2026-02-09 正式公告部分早期车型的软件召回。
 
 适用边界：不能将召回对象扩张为最新一代全部 ES6。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_leap"></a>
 ## recall_leap · 零跑 C11 和 C01 召回
@@ -643,6 +783,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不表示 C10/B10 处在本次范围内。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_camry"></a>
 ## recall_camry · 广汽丰田凯美瑞等召回
 
@@ -651,6 +793,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 广汽丰田对部分九代凯美瑞等车型有正式召回。
 
 适用边界：按生产批次查 VIN，不能据存在召回推定风险最低。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_rav4"></a>
 ## recall_rav4 · 一汽丰田部分荣放召回
@@ -661,6 +805,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不表示第六代荣放在这批旧生产期间。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_honda"></a>
 ## recall_honda · 本田国产及进口车型召回
 
@@ -669,6 +815,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 东风本田公告部分 CR-V 等车型正式召回。
 
 适用边界：品牌历史维度不等于 VIN 已完成修复。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_vw"></a>
 ## recall_vw · 大众三家企业正式召回
@@ -679,6 +827,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：只支持品牌/已列企业的历史；与众 08 大众安徽法人需另查。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="recall_saic"></a>
 ## recall_saic · 上汽乘用车 MG3 AMT 召回
 
@@ -687,6 +837,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 上汽乘用车分公司有历史正式召回。
 
 适用边界：集团或生产体系记录不自动授予新尚界品牌通过；当前生产法人映射待核。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="recall_nissan"></a>
 ## recall_nissan · 东风日产 e-POWER 轩逸等召回
@@ -697,6 +849,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：不能推定十五代燃油轩逸属于该召回范围。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="labor_zeekr"></a>
 ## labor_zeekr · 极氪 2024 年 20-F 社保风险披露
 
@@ -705,6 +859,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 包含社保、公积金补缴与监管费用的风险表述，也陈述依法提供社保。
 
 适用边界：风险条款不是足以确定某个当前生产企业欠缴的处罚或员工级缴费证据；不据此打不缴费标签。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="labor_geely"></a>
 ## labor_geely · 吉利 2025 ESG 报告
@@ -715,6 +871,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：制度与覆盖率不能独立证明员工级基数、到账、补缴和生产企业范围。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="labor_byd"></a>
 ## labor_byd · 比亚迪政府招聘公示
 
@@ -723,6 +881,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 岗位公示列五险一金福利。
 
 适用边界：招聘承诺不证明全部员工实际足额缴费。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
 
 <a id="rav4_retail"></a>
 ## rav4_retail · 第六代 RAV4 美国当前销售目录
@@ -733,6 +893,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：只能支持国际车型家族已实际销售；不是中国车辆 eCall 或硬件等同性证明。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="camry_retail"></a>
 ## camry_retail · Camry 美国当前销售目录
 
@@ -742,6 +904,8 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 
 适用边界：本轮只证明凯美瑞国际车型家族；中国 2027 年款的最新本土配置仍需逐版核对。
 
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
 <a id="xpeng_p7_retail"></a>
 ## xpeng_p7_retail · 小鹏德国 P7+ 当前销售页面
 
@@ -750,3 +914,115 @@ M03 涉及滴滴汽车资产交易并于 2024 年开始交付。
 P7+ 当前购车优惠与试驾入口可见。
 
 适用边界：欧洲纯电 P7+ 的销售证据不能自动授予中国增程版本。
+
+审阅状态：`accepted`；审阅者：Codex initial research；审阅日期：2026-10-13。
+
+<a id="sales_2026_09_p1"></a>
+## sales_2026_09_p1 · 2026年9月汽车之家全车系月销榜 p1
+
+[汽车之家](https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=1)；类型：`market_dataset`；检索：2026-10-14；正文日期：未完整核实/动态页。
+
+2026-09固定查询，第1页50条；对应销量名次1至50。
+
+适用边界：平台自述行业综合销量、车系口径；不是统一的乘联分会车型零售口径。榜单可能合并多个年款或动力，不能直接证明当前SKU、开发周期、海外同等配置或具体企业的用工事实。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="sales_2026_09_p2"></a>
+## sales_2026_09_p2 · 2026年9月汽车之家全车系月销榜 p2
+
+[汽车之家](https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=2)；类型：`market_dataset`；检索：2026-10-14；正文日期：未完整核实/动态页。
+
+2026-09固定查询，第2页50条；对应销量名次51至100。
+
+适用边界：平台自述行业综合销量、车系口径；不是统一的乘联分会车型零售口径。榜单可能合并多个年款或动力，不能直接证明当前SKU、开发周期、海外同等配置或具体企业的用工事实。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_bmw_2026"></a>
+## recall_bmw_2026 · 华晨宝马及宝马中国正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zlfzj/qxcpzh/zhdt/art/2026/art_d644ddd0394f420f976590a8d1043bdc.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2026-03-24。
+
+公告载有华晨宝马国产5系及宝马中国进口5系、7系、M5的正式召回计划。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_chery_2026"></a>
+## recall_chery_2026 · 奇瑞探索06和瑞虎7正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zw/zh/art/2026/art_888df94598974910954a89bf6846fa6f.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2026-01-23。
+
+奇瑞汽车股份有限公司备案探索06和全新瑞虎7 1.6T车型正式召回计划。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_mercedes_2026"></a>
+## recall_mercedes_2026 · 北京奔驰正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zw/zh/art/2026/art_fb338464c01e4c3a86af399bee0a7c80.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2026-05-29。
+
+北京奔驰备案部分国产C级、GLC等车型正式召回计划，实施起点为2026-08-10。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_gac_honda_2025"></a>
+## recall_gac_honda_2025 · 广汽本田及东风本田正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zw/zh/art/2025/art_c35023d2421548e1ad3adae99014bab6.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2025-06-27。
+
+公告明确区分广汽本田的雅阁、皓影等，以及东风本田的CR-V等车型召回计划。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_buick_2025"></a>
+## recall_buick_2025 · 别克微蓝6正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zw/zh/art/2025/art_f87d301132a54c59a879115dfc6c8298.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2025-03-07。
+
+上汽通用备案别克微蓝6及雪佛兰畅巡正式召回计划；别克品牌在公告中明确出现。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="recall_firefly_2026"></a>
+## recall_firefly_2026 · 萤火虫纯电车型正式召回公告
+
+[国家市场监督管理总局](https://www.samr.gov.cn/zlfzj/sjdt/gzdt/art/2026/art_3a459894a1344a51ad8f44ccc99f21c4.html)；类型：`recall_notice`；检索：2026-10-14；正文日期：2026-09-18。
+
+蔚来汽车科技（安徽）有限公司备案部分萤火虫纯电动汽车正式召回，涉及686辆。
+
+适用边界：这里只确认目标品牌有正式召回历史；不证明榜单当前全部年款都涉及此缺陷、已整改完毕或车辆安全优劣。实际生产企业及VIN需另查，不能外推到集团其他品牌。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="firefly_global_2026"></a>
+## firefly_global_2026 · NIO挪威披露firefly国际推出与交付情况
+
+[NIO Norway](https://www.nio.com/no_NO/news/worldurbancar2026)；类型：`official_company_disclosure`；检索：2026-10-14；正文日期：2026-04-07。
+
+厂商披露firefly已在三个洲11个国家推出，并于3月29日达到全球累计5万交付。作为存在国际产品家族的公开公司证据。
+
+适用边界：厂商披露，不是本仓库独立审计。不能证明中国当前所有年款、动力或安全硬件与海外完全相同，亦不把获奖当国内车辆安全认证。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。
+
+<a id="mg4_global_2026"></a>
+## mg4_global_2026 · MG欧洲说明新MG4 EV Urban与现有MG4的区别
+
+[MG Motor Europe](https://news.mgmotor.eu/at/press/mg4-ev-urban-fuer-die-stadt-und-darueber-hinaus/)；类型：`official_company_disclosure`；检索：2026-10-14；正文日期：2026-06-24。
+
+欧洲官方发布MG4 EV Urban，并明确其新前驱平台与现有后驱/四驱MG4是不同产品；存在海外MG4命名家族。
+
+适用边界：不能仅凭同名就把后驱旧MG4、MG4 EV Urban及中国当前MG4视作相同年款或相同配置；海外发布和定价不是中国SKU总数。
+
+审阅状态：`accepted`；审阅者：Codex public-source review；审阅日期：2026-10-14。

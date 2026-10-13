@@ -14,7 +14,9 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {'development': '开发周期', 'globalization': '全球化',
-          'recall': '正式召回历史', 'labor': '足额五险一金', 'sku': 'SKU'}
+          'recall': '正式召回历史', 'labor': '用工保障（缴费与外包）', 'sku': 'SKU'}
+OUTSOURCING_LABELS = {'not_verified': '待核', 'verified_present': '已确认存在外包/派遣用工',
+                      'verified_absent_full_scope': '指定主体及时间范围内已核实无外包/派遣用工'}
 GLOBAL_LABELS = {'international_family': '海外正式车型家族', 'derived_family': '海外衍生家族/新旧硬件待匹配',
                  'global_design': '仅全球设计/发布证据', 'china_only': '官方中国专属',
                  'planned': '出海计划，未代替实售', 'unknown': '待核查'}
@@ -53,7 +55,11 @@ def components(model: dict, brand: dict, config: dict) -> dict:
     labor = {'verified_full_scope': (0.0, 0.0), 'not_verified': (0.0, 100.0),
              'documented_unresolved_shortfall': (100.0, 100.0)}
     bounds['recall'] = recall[brand['recall_status']]
-    bounds['labor'] = labor[brand['labor_status']]
+    payment = labor[brand['labor_status']]
+    outsourcing = {'not_verified': (0.0, 100.0), 'verified_present': (100.0, 100.0),
+                   'verified_absent_full_scope': (0.0, 0.0)}[brand['outsourcing_status']]
+    # Either labor objection is enough; adding a second objection cannot dilute the first.
+    bounds['labor'] = (max(payment[0], outsourcing[0]), max(payment[1], outsourcing[1]))
     sku = model['sku']['count_range']
     bounds['sku'] = (0.0, 100.0) if sku is None else (
         sku_points(sku[0], config),
@@ -79,6 +85,8 @@ def score(model: dict, brand: dict, config: dict) -> dict:
         confirmed_objections.append('SKU 已达较多阈值')
     if brand['labor_status'] == 'documented_unresolved_shortfall':
         confirmed_objections.append('足额缴费存在尚未整改的实证问题')
+    if brand['outsourcing_status'] == 'verified_present':
+        confirmed_objections.append('存在已核实外包/派遣用工，不建议购买')
     if brand['recall_status'] == 'documented_failure':
         confirmed_objections.append('召回整改存在实证问题')
     # A low index is never allowed to erase an unresolved user prerequisite.
@@ -87,17 +95,23 @@ def score(model: dict, brand: dict, config: dict) -> dict:
         missing_prerequisites.append('正式召回历史')
     if brand['labor_status'] != 'verified_full_scope':
         missing_prerequisites.append('当前用工主体足额五险一金')
+    if brand['outsourcing_status'] != 'verified_absent_full_scope':
+        missing_prerequisites.append('当前用工主体无外包/派遣员工')
     if model['globalization']['level'] != 'international_family':
         missing_prerequisites.append('当前车型全球化对应')
     if sku is None:
         missing_prerequisites.append('完整现售 SKU')
     status = '偏好冲突，优先核查' if confirmed_objections else '购前条件待核'
+    if brand['outsourcing_status'] == 'verified_present':
+        status = '不建议购买（已核实外包/派遣用工）'
     if not confirmed_objections and not missing_prerequisites:
         status = '偏好条件已核实；还需核对具体 VIN'
     return dict(id=model['id'], name=model['name'], scope=model['scope'],
                 low=low, high=high, component_bounds=bounds,
                 unresolved=unresolved, objections=confirmed_objections,
                 missing_prerequisites=missing_prerequisites, status=status,
+                known_weight=sum(config['weights'][k] for k,v in bounds.items() if v[0] == v[1]),
+                outsourcing_status=brand['outsourcing_status'],
                 scenarios={name: weighted(bounds, w) for name,w in config['scenarios'].items()})
 
 
@@ -114,6 +128,11 @@ def validate(models, brands, sources, config):
             raise ValueError(f'Invalid source URL: {source["id"]}')
         if not source['reviewed_facts'] or not source['limitations']:
             raise ValueError(f'Missing source interpretation: {source["id"]}')
+        review = source.get('review', {})
+        if review.get('status') not in {'pending', 'accepted', 'rejected', 'conflicting'}:
+            raise ValueError(f'Missing evidence review state: {source["id"]}')
+        if review['status'] == 'accepted' and not all(review.get(k) for k in ('reviewer','reviewed_at','reason')):
+            raise ValueError(f'Accepted evidence needs a review receipt: {source["id"]}')
     for weights in [config['weights'], *config['scenarios'].values()]:
         if set(weights) != set(LABELS) or sum(weights.values()) != 100 or min(weights.values()) < 0:
             raise ValueError('Weights must be nonnegative and sum to 100')
@@ -121,8 +140,15 @@ def validate(models, brands, sources, config):
         missing = set(ref_list) - source_ids
         if missing:
             raise ValueError(f'Missing references: {missing}')
+        if any(next(s for s in sources if s['id']==r)['review']['status'] != 'accepted' for r in ref_list):
+            raise ValueError('Unreviewed, rejected or conflicting sources cannot enter published observations')
     for brand in brands:
-        refs(brand['recall_sources'] + brand['related_recall_sources'] + brand['labor_sources'])
+        refs(brand['recall_sources'] + brand['related_recall_sources'] + brand['labor_sources'] + brand['outsourcing_sources'])
+        if brand['outsourcing_status'] not in OUTSOURCING_LABELS:
+            raise ValueError('Invalid outsourcing status')
+        if brand['outsourcing_status'] != 'not_verified' and (not brand['outsourcing_sources'] or
+                not all(brand.get(k) for k in ('outsourcing_entity','outsourcing_period','outsourcing_scope'))):
+            raise ValueError('An outsourcing finding needs reviewed evidence, entity, period and scope')
         if brand['recall_status'] == 'formal_history_found' and not brand['recall_sources']:
             raise ValueError('A positive recall-history claim requires a formal notice')
         if any(next(s for s in sources if s['id']==r)['type'] != 'recall_notice' for r in brand['recall_sources']):
@@ -152,6 +178,32 @@ def validate(models, brands, sources, config):
     return brand_map
 
 
+def validate_cohort(models, sources, config, cohort=None):
+    if cohort is None:
+        cohort = json.loads((ROOT/'data'/config['sales_cohort_file']).read_text(encoding='utf-8'))
+    rows = cohort['rows']
+    if cohort['month'] != config['sales_month'] or len(rows) != 100:
+        raise ValueError('The requested monthly cohort must contain exactly 100 rows')
+    if [r['rank'] for r in rows] != list(range(1,101)):
+        raise ValueError('Sales ranks must be unique, complete and ordered 1..100')
+    if len({r['series_id'] for r in rows}) != 100:
+        raise ValueError('Duplicate sales family')
+    if any(not isinstance(r['sales'],int) or r['sales'] <= 0 for r in rows):
+        raise ValueError('Invalid sales observation')
+    if any(rows[i]['sales'] < rows[i+1]['sales'] for i in range(99)):
+        raise ValueError('Sales cohort is not in descending order')
+    mids={m['id'] for m in models}
+    sm={s['id']:s for s in sources}
+    for row in rows:
+        if not row['observation_ids'] or not set(row['observation_ids']) <= mids:
+            raise ValueError('A sales family has no valid evidence observation')
+        if sm[row['source_id']]['review']['status'] != 'accepted':
+            raise ValueError('Sales cohort requires accepted evidence')
+        if not row['mapping_note']:
+            raise ValueError('Sales-family to observation mapping must explain its scope')
+    return cohort
+
+
 def number(x):
     return str(int(x)) if float(x).is_integer() else f'{x:.1f}'
 
@@ -173,6 +225,7 @@ def refs_md(refs, source_map):
 
 def render(models, brands, sources, config):
     bm = validate(models,brands,sources,config)
+    cohort = validate_cohort(models,sources,config)
     sm = {s['id']:s for s in sources}
     scored = [score(m,bm[m['brand_id']],config) for m in models]
     by_id = {m['id']:m for m in models}
@@ -181,9 +234,9 @@ def render(models, brands, sources, config):
     docs = ROOT/'docs'
     docs.mkdir(exist_ok=True)
     lines = ['# 车型指数与购前条件', '',
-             f'数据版本：{config["version"]}；来源检索窗口：2026-10-12 至 2026-10-13；市场：中国大陆。', '',
+             f'数据版本：{config["version"]}；来源检索窗口：{config["research_window"][0]} 至 {config["research_window"][1]}；市场：中国大陆。', '',
              '**分数越高表示本指南的核查优先度越高。区间是未知项的可能计分上下界，不是事故概率、统计置信区间或安全测评。表格按已确认计分下界排列，仅为方便阅读；不能按下界、上界或中点宣称车的安全优劣。**', '',
-             '大部分车型未公开本代立项时间；全部品牌的当前员工级足额缴费情况仍未证实。所有车型均有购前待核条件。', '',
+             '已纳入 2026 年 9 月固定榜单前 100 个车系，另保留首版对照车型。销量车系与明确年款的评分观察并非一一等同。[前 100 覆盖表](SALES_TOP100.md) 单独列出映射与缺口。大部分车型未公开本代立项时间；当前员工级足额缴费和无外包完整范围证明仍待补齐。', '',
              '关于四项偏好的规则见 [方法](METHODOLOGY.md)，详细事实及边界见 [逐车证据](MODEL_DETAILS.md)。', '',
              '| 车型/动力分支 | 开发月数 | 全球化证据 | 基本 SKU | 指数区间 | 正式召回历史 | 购前状态 |',
              '|---|---:|---|---:|---:|---|---|']
@@ -205,16 +258,18 @@ def render(models, brands, sources, config):
         r = score(m,b,config)
         details += [f'<a id="{m["id"]}"></a>', f'## {m["name"]}', '',
             f'- 研究范围：{m["scope"]}；动力：{", ".join(m["powertrains"])}。',
-            f'- 在售依据：{refs_md(m["sale_sources"],sm)}。本轮未确认地区现车库存。',
+            f'- {"9月销量入样依据（当前官方年款仍待核）" if m["sale_status"]=="sales_cohort_only" else "在售依据"}：{refs_md(m["sale_sources"],sm)}。本轮未确认地区现车库存。',
             f'- 整车开发跨度：{rng(m["development"]["months_range"],"个月")}。{m["development"]["note"]} 来源：{refs_md(m["development"]["sources"],sm)}。',
             f'- 全球化：{GLOBAL_LABELS[m["globalization"]["level"]]}。{m["globalization"]["note"]} 来源：{refs_md(m["globalization"]["sources"],sm)}。',
             f'- 中国销售版本与海外配置等同性、国内 eCall：均待核。',
             f'- SKU：{rng(m["sku"]["count_range"])}。{m["sku"]["note"]} 来源：{refs_md(m["sku"]["sources"],sm)}。',
             f'- 正式召回历史：{"已取得品牌记录" if b["recall_status"]=="formal_history_found" else "未获得充分品牌记录"}。{b["note"]} 来源：{refs_md(b["recall_sources"],sm)}。',
             f'- 集团/其他品牌关联记录（不充当通过项）：{refs_md(b["related_recall_sources"],sm)}。',
-            f'- 足额五险一金：待核。{b["labor_note"]} 相关披露：{refs_md(b["labor_sources"],sm)}。',
+            f'- 足额五险一金：`{b["labor_status"]}`。{b["labor_note"]} 相关披露：{refs_md(b["labor_sources"],sm)}。',
+            f'- 外包/派遣员工：{OUTSOURCING_LABELS[b["outsourcing_status"]]}。{b["outsourcing_note"]} 来源：{refs_md(b["outsourcing_sources"],sm)}。',
             f'- 当前具体生产法人：尚未逐车验证；品牌级召回历史不能取代当前生产法人或 VIN 的核对。',
             f'- 指数区间：**{rng([r["low"],r["high"]])}**；状态：{r["status"]}。',
+            f'- 已确定计分权重：{r["known_weight"]}%（信息完整度提示，不是评分准确率）。',
             f'- 未完成购前条件：{"、".join(r["missing_prerequisites"]) or "请核对具体 VIN"}。', '']
     (docs/'MODEL_DETAILS.md').write_text('\n'.join(details),encoding='utf-8',newline='\n')
 
@@ -225,6 +280,7 @@ def render(models, brands, sources, config):
         sl += [f'<a id="{s["id"]}"></a>', f'## {s["id"]} · {s["title"]}', '',
                f'[{s["publisher"]}]({s["url"]})；类型：`{s["type"]}`；检索：{s["retrieved_at"]}；正文日期：{s["published_at"] or "未完整核实/动态页"}。', '',
                s['reviewed_facts'], '', f'适用边界：{s["limitations"]}', '']
+        sl += [f'审阅状态：`{s["review"]["status"]}`；审阅者：{s["review"].get("reviewer") or "待分配"}；审阅日期：{s["review"].get("reviewed_at") or "待审"}。', '']
     (docs/'SOURCES.md').write_text('\n'.join(sl),encoding='utf-8',newline='\n')
 
     raw = dict(version=config['version'], as_of=config['as_of'], results=scored)
@@ -240,7 +296,36 @@ def render(models, brands, sources, config):
             GLOBAL_LABELS[m['globalization']['level']],*sku,r['low'],r['high'],r['status'],
             '；'.join(r['missing_prerequisites']),';'.join(sm[x]['url'] for x in m['sale_sources'])])
     (ROOT/'data'/'model-index.csv').write_text(buffer.getvalue(),encoding='utf-8-sig',newline='\n')
+    render_cohort(cohort, scored, by_id, sm, config)
+    quality = ['# 数据覆盖与待补证事项', '', f'版本：{config["version"]}；截至：{config["as_of"]}。本页由生成器重算，资料覆盖不能当预测准确率。', '', f'固定月榜已纳入100车系；评分观察共{len(models)}条。观察数量多于车系数量，包含动力分支及不在本月前100内的对照。', '', '| 计分维度 | 已确定计分的观察数 | 仍有未知区间的观察数 |', '|---|---:|---:|']
+    for key,label in LABELS.items():
+        fixed = sum(r['component_bounds'][key][0] == r['component_bounds'][key][1] for r in scored)
+        quality.append(f'| {label} | {fixed} | {len(scored)-fixed} |')
+    quality += ['', f'完全未确定任何计分项的观察数：{sum(r["known_weight"] == 0 for r in scored)}；这类记录保持[0,100]，无法给出结论。', '', '完整员工级足额缴费和当前无外包/派遣范围证明仍缺失。多数本代项目起点未公开；榜单入样和品牌召回历史不等于完整研发、质量或用工核查。', '', '优先补：原始整车立项/起止事件、当前完整SKU表、明确法人及报告期的用工资料、国内与海外同代同动力对应。[提交证据](../CONTRIBUTING.md)。', '']
+    (ROOT/'docs'/'DATA_QUALITY.md').write_text('\n'.join(quality),encoding='utf-8',newline='\n')
     return scored
+
+
+def render_cohort(cohort, scored, models, sources, config):
+    scores={r['id']:r for r in scored}
+    lines=['# 2026 年 9 月销量前 100 车系覆盖', '',
+           f'固定来源：[{cohort["publisher"]}]({cohort["source_url"]})；月份：{cohort["month"]}；口径：**{cohort["metric"]}**；抓取日期：{cohort["retrieved_at"]}。', '',
+           cohort['scope_note'], '',
+           '本表的名次仅指所选销量榜的名次，不是速成车或安全排名。新增的销量车系记录仍须补本代、动力、生产主体及官方现售配置；缺少的研发、全球化、用工或 SKU 项保持未知。映射到明确年款的旧观察只代表该观察范围，不将其分数外推到整条车系。', '',
+           '| 销量序号 | 销量车系 | 月销量（辆） | 评分观察 / 区间 / 已确定权重 | 映射边界 |',
+           '|---:|---|---:|---|---|']
+    buf=io.StringIO(newline='')
+    writer=csv.writer(buf,lineterminator='\n')
+    writer.writerow(['month','rank','series_id','series_name','sales','metric','observation_ids','mapping_note','source_url'])
+    for row in cohort['rows']:
+        obs=[]
+        for mid in row['observation_ids']:
+            s=scores[mid]
+            obs.append(f'[{models[mid]["name"]}](MODEL_DETAILS.md#{mid})：{rng([s["low"],s["high"]])}；{s["known_weight"]}%')
+        lines.append(f'| {row["rank"]} | {row["series_name"]} | {row["sales"]:,} | {"<br>".join(obs)} | {row["mapping_note"]} |')
+        writer.writerow([cohort['month'],row['rank'],row['series_id'],row['series_name'],row['sales'],cohort['metric'],';'.join(row['observation_ids']),row['mapping_note'],cohort['source_url']])
+    (ROOT/'docs'/'SALES_TOP100.md').write_text('\n'.join(lines)+'\n',encoding='utf-8',newline='\n')
+    (ROOT/'data'/'sales-top100.csv').write_text(buf.getvalue(),encoding='utf-8-sig',newline='\n')
 
 
 def main():
@@ -250,6 +335,7 @@ def main():
     data=load()
     if args.check:
         validate(*data)
+        validate_cohort(data[0],data[2],data[3])
     else:
         render(*data)
     print(f'OK: {len(data[0])} observations; {len(data[1])} brands; {len(data[2])} source records; weights and bounds validated.')

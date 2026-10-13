@@ -1,0 +1,1338 @@
+{
+  "version": "1.1.0",
+  "month": "2026-09",
+  "market": "中国大陆",
+  "publisher": "汽车之家",
+  "source_url": "https://www.autohome.com.cn/rank/1-1-0-0_9000-x-x-x/2026-09.html",
+  "metric": "汽车之家行业综合销量（平台车系月销口径）",
+  "retrieved_at": "2026-10-14",
+  "collected_at_utc": "2026-10-13T16:12:05Z",
+  "collection_run": "https://github.com/ElonX90/QuickCarBuyingGuide/actions/runs/38428510314",
+  "receipts": [
+    {
+      "url": "https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=1",
+      "sha256": "d91cc5df4b16132d25d7c7e1b13e8632d75e82ff1cbbc8d97e31eeb6682860d1",
+      "keys": [
+        "cacheable",
+        "cdncachesecond",
+        "message",
+        "result",
+        "returncode"
+      ]
+    },
+    {
+      "url": "https://car-web-api.autohome.com.cn/car/rank/getList?channel=0&model=1&pm=1&typeid=1&subranktypeid=1&levelid=0&price=0-9000&date=2026-09&pagesize=50&cityid=0&provinceid=0&pageindex=2",
+      "sha256": "03a547255534074430f2630fde993c6b1e4248f2a321da1aba4b16640ce9e9fd",
+      "keys": [
+        "cacheable",
+        "cdncachesecond",
+        "message",
+        "result",
+        "returncode"
+      ]
+    }
+  ],
+  "scope_note": "默认按全车型、全部价格与能源类型的固定2026-09查询选取前100车系。平台名次可能因合并年款或动力而不同于其他零售/批发榜；本仓库保持其原口径，不混用其他月份和其他平台数字。排名只用于扩展研究样本，不参与速成车指数加权。",
+  "rows": [
+    {
+      "rank": 1,
+      "series_id": "5769",
+      "series_name": "Model Y",
+      "sales": 50359,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "tesla_modely"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。原观察仅普通五座Model Y，不自动覆盖Model Y L。"
+    },
+    {
+      "rank": 2,
+      "series_id": "7806",
+      "series_name": "星愿",
+      "sales": 44275,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "geely_xingyuan"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 3,
+      "series_id": "8171",
+      "series_name": "钛7",
+      "sales": 27544,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8171"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 4,
+      "series_id": "7538",
+      "series_name": "元UP",
+      "sales": 22767,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_7538"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 5,
+      "series_id": "8433",
+      "series_name": "零跑A10",
+      "sales": 21772,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8433"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 6,
+      "series_id": "8241",
+      "series_name": "长安启源Q05",
+      "sales": 18043,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8241"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 7,
+      "series_id": "8511",
+      "series_name": "宋Ultra",
+      "sales": 17131,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8511"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 8,
+      "series_id": "6428",
+      "series_name": "卡罗拉锐放",
+      "sales": 16865,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6428"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 9,
+      "series_id": "6139",
+      "series_name": "海豚",
+      "sales": 16754,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "byd_dolphin"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 10,
+      "series_id": "770",
+      "series_name": "RAV4荣放",
+      "sales": 16738,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "toyota_rav4"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 11,
+      "series_id": "6962",
+      "series_name": "小米SU7",
+      "sales": 15751,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "xiaomi_su7"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 12,
+      "series_id": "8087",
+      "series_name": "海狮06",
+      "sales": 14821,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8087"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 13,
+      "series_id": "8563",
+      "series_name": "MG 07",
+      "sales": 14577,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8563"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 14,
+      "series_id": "7588",
+      "series_name": "海豹06",
+      "sales": 14479,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_7588"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 15,
+      "series_id": "5346",
+      "series_name": "Model 3",
+      "sales": 14478,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "tesla_model3"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 16,
+      "series_id": "614",
+      "series_name": "朗逸",
+      "sales": 14425,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "vw_lavida"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 17,
+      "series_id": "8585",
+      "series_name": "缤果Pro",
+      "sales": 14002,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8585"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 18,
+      "series_id": "6651",
+      "series_name": "MG4",
+      "sales": 13966,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6651"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 19,
+      "series_id": "5714",
+      "series_name": "宏光MINIEV",
+      "sales": 13630,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_5714"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 20,
+      "series_id": "5279",
+      "series_name": "宋Pro新能源",
+      "sales": 13472,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "byd_songpro"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 21,
+      "series_id": "6004",
+      "series_name": "星越L",
+      "sales": 13354,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6004"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 22,
+      "series_id": "110",
+      "series_name": "凯美瑞",
+      "sales": 13269,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "toyota_camry"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 23,
+      "series_id": "4274",
+      "series_name": "途观L",
+      "sales": 12980,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_4274"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 24,
+      "series_id": "8499",
+      "series_name": "QQ3 EV",
+      "sales": 12688,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8499"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 25,
+      "series_id": "7740",
+      "series_name": "深蓝S05",
+      "sales": 12648,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_7740"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 26,
+      "series_id": "7231",
+      "series_name": "奔腾小马",
+      "sales": 12473,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_7231"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 27,
+      "series_id": "8305",
+      "series_name": "小鹏MONA L03",
+      "sales": 12000,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8305"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 28,
+      "series_id": "8569",
+      "series_name": "零跑A05",
+      "sales": 11945,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8569"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 29,
+      "series_id": "7793",
+      "series_name": "小米YU7",
+      "sales": 11820,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "xiaomi_yu7"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 30,
+      "series_id": "6814",
+      "series_name": "博越L",
+      "sales": 11680,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6814"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 31,
+      "series_id": "4744",
+      "series_name": "探岳",
+      "sales": 11044,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_4744"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 32,
+      "series_id": "8102",
+      "series_name": "大唐",
+      "sales": 10997,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8102"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 33,
+      "series_id": "496",
+      "series_name": "迈腾",
+      "sales": 10883,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_496"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 34,
+      "series_id": "6950",
+      "series_name": "理想L6",
+      "sales": 10666,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "li_l6"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 35,
+      "series_id": "4701",
+      "series_name": "缤越",
+      "sales": 10658,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_4701"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 36,
+      "series_id": "5964",
+      "series_name": "秦PLUS",
+      "sales": 10652,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_5964"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 37,
+      "series_id": "4427",
+      "series_name": "蔚来ES8",
+      "sales": 10539,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_4427"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 38,
+      "series_id": "8245",
+      "series_name": "AION i60",
+      "sales": 10478,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_8245"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 39,
+      "series_id": "7207",
+      "series_name": "问界M9",
+      "sales": 10262,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "aito_m9"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 40,
+      "series_id": "6414",
+      "series_name": "锋兰达",
+      "sales": 10250,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6414"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 41,
+      "series_id": "7877",
+      "series_name": "零跑B10",
+      "sales": 10132,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "leap_b10"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 42,
+      "series_id": "442",
+      "series_name": "速腾",
+      "sales": 10116,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_442"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 43,
+      "series_id": "7382",
+      "series_name": "零跑C10",
+      "sales": 10103,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "leap_c10"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 44,
+      "series_id": "528",
+      "series_name": "帕萨特",
+      "sales": 10102,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_528"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 45,
+      "series_id": "66",
+      "series_name": "宝马3系",
+      "sales": 9975,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_66"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 46,
+      "series_id": "7712",
+      "series_name": "铂智3X",
+      "sales": 9855,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_7712"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 47,
+      "series_id": "6674",
+      "series_name": "长安Lumin",
+      "sales": 9704,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_6674"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 48,
+      "series_id": "4693",
+      "series_name": "瑞虎8",
+      "sales": 9528,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_4693"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 49,
+      "series_id": "6762",
+      "series_name": "海鸥",
+      "sales": 9517,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "byd_seagull"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 50,
+      "series_id": "5770",
+      "series_name": "长城大狗",
+      "sales": 9265,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p1",
+      "observation_ids": [
+        "sales_ah_5770"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 51,
+      "series_id": "526",
+      "series_name": "卡罗拉",
+      "sales": 9197,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_526"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 52,
+      "series_id": "8586",
+      "series_name": "长城H10",
+      "sales": 9103,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8586"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 53,
+      "series_id": "5472",
+      "series_name": "威兰达",
+      "sales": 9081,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_5472"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 54,
+      "series_id": "5771",
+      "series_name": "北京越野BJ30",
+      "sales": 9075,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_5771"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 55,
+      "series_id": "8529",
+      "series_name": "问界M6",
+      "sales": 8651,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8529"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 56,
+      "series_id": "314",
+      "series_name": "本田CR-V",
+      "sales": 8492,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "honda_crv"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 57,
+      "series_id": "5273",
+      "series_name": "星瑞",
+      "sales": 8477,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_5273"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 58,
+      "series_id": "7982",
+      "series_name": "海狮05 EV",
+      "sales": 8306,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7982"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 59,
+      "series_id": "4962",
+      "series_name": "亚洲龙",
+      "sales": 8227,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_4962"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 60,
+      "series_id": "197",
+      "series_name": "奔驰E级",
+      "sales": 8200,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_197"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 61,
+      "series_id": "7807",
+      "series_name": "海狮05 DM-i",
+      "sales": 8099,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7807"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 62,
+      "series_id": "448",
+      "series_name": "轩逸",
+      "sales": 8057,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "nissan_sylphy"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 63,
+      "series_id": "18",
+      "series_name": "奥迪A6L",
+      "sales": 8022,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_18"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 64,
+      "series_id": "3862",
+      "series_name": "奔驰GLC",
+      "sales": 7920,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_3862"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 65,
+      "series_id": "6298",
+      "series_name": "元PLUS",
+      "sales": 7811,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "byd_yuanplus"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 66,
+      "series_id": "8485",
+      "series_name": "海豹08",
+      "sales": 7789,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8485"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 67,
+      "series_id": "8509",
+      "series_name": "蔚来ES9",
+      "sales": 7706,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8509"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 68,
+      "series_id": "8283",
+      "series_name": "华境S",
+      "sales": 7416,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8283"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 69,
+      "series_id": "8183",
+      "series_name": "理想i6",
+      "sales": 7379,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8183"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 70,
+      "series_id": "7990",
+      "series_name": "firefly萤火虫",
+      "sales": 7200,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7990"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 71,
+      "series_id": "8731",
+      "series_name": "小米澎程N70",
+      "sales": 7147,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8731"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 72,
+      "series_id": "8006",
+      "series_name": "零跑B01",
+      "sales": 7120,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8006"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 73,
+      "series_id": "8086",
+      "series_name": "极狐贝塔T1",
+      "sales": 7025,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8086"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 74,
+      "series_id": "8651",
+      "series_name": "ID. ERA 5S",
+      "sales": 7010,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8651"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 75,
+      "series_id": "8190",
+      "series_name": "极狐贝塔S3",
+      "sales": 6985,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8190"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 76,
+      "series_id": "3556",
+      "series_name": "帝豪",
+      "sales": 6921,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_3556"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 77,
+      "series_id": "8658",
+      "series_name": "银河TT",
+      "sales": 6894,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8658"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 78,
+      "series_id": "65",
+      "series_name": "宝马5系",
+      "sales": 6863,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_65"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 79,
+      "series_id": "8224",
+      "series_name": "小鹏GX",
+      "sales": 6780,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8224"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 80,
+      "series_id": "6664",
+      "series_name": "艾瑞泽8",
+      "sales": 6705,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_6664"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 81,
+      "series_id": "8468",
+      "series_name": "星光L",
+      "sales": 6659,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8468"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 82,
+      "series_id": "7981",
+      "series_name": "海豹05 DM-i",
+      "sales": 6546,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7981"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 83,
+      "series_id": "7210",
+      "series_name": "坦克300新能源",
+      "sales": 6466,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7210"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 84,
+      "series_id": "4410",
+      "series_name": "红旗H5",
+      "sales": 6417,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_4410"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 85,
+      "series_id": "7853",
+      "series_name": "风云A9",
+      "sales": 6393,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7853"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 86,
+      "series_id": "4851",
+      "series_name": "奥迪Q5L",
+      "sales": 6172,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_4851"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 87,
+      "series_id": "8660",
+      "series_name": "风云T7",
+      "sales": 6171,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8660"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 88,
+      "series_id": "7674",
+      "series_name": "零跑C16",
+      "sales": 6146,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_7674"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 89,
+      "series_id": "6548",
+      "series_name": "宝马X5",
+      "sales": 6131,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_6548"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 90,
+      "series_id": "4745",
+      "series_name": "途岳",
+      "sales": 6043,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_4745"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 91,
+      "series_id": "8189",
+      "series_name": "缤果S",
+      "sales": 6028,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8189"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 92,
+      "series_id": "78",
+      "series_name": "雅阁",
+      "sales": 6010,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_78"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 93,
+      "series_id": "8463",
+      "series_name": "秦MAX",
+      "sales": 5869,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_8463"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 94,
+      "series_id": "6272",
+      "series_name": "赛那SIENNA",
+      "sales": 5849,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_6272"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 95,
+      "series_id": "4683",
+      "series_name": "捷途X70",
+      "sales": 5642,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_4683"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 96,
+      "series_id": "3554",
+      "series_name": "昂科威Plus",
+      "sales": 5638,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_3554"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 97,
+      "series_id": "6998",
+      "series_name": "小鹏MONA M03",
+      "sales": 5553,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "xpeng_m03"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 98,
+      "series_id": "7777",
+      "series_name": "极氪7X",
+      "sales": 5544,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "zeekr_7x"
+      ],
+      "mapping_note": "对应原有明确年款/动力观察；该分数只适用于其研究范围，不外推到销量车系的全部年款与动力。"
+    },
+    {
+      "rank": 99,
+      "series_id": "3170",
+      "series_name": "奥迪A3",
+      "sales": 5376,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_3170"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    },
+    {
+      "rank": 100,
+      "series_id": "2429",
+      "series_name": "逸动",
+      "sales": 5302,
+      "brand_id": null,
+      "energy_flag": null,
+      "source_id": "sales_2026_09_p2",
+      "observation_ids": [
+        "sales_ah_2429"
+      ],
+      "mapping_note": "新增车系证据位；销量与入样已核对，具体年款/动力、官方现售配置及评分事实待补证。"
+    }
+  ]
+}

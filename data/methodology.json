@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "as_of": "2026-10-12",
-  "completed_at": "2026-10-13",
+  "version": "1.1.0",
+  "as_of": "2026-10-14",
+  "completed_at": "2026-10-14",
   "research_window": [
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-14"
   ],
   "market": "中国大陆",
   "direction": "higher_means_more_scrutiny",
@@ -61,5 +61,9 @@
   },
   "unknown_policy": "full_bounds_no_midpoint",
   "recall_scope": "brand_history",
-  "sku_attention_threshold": 9
+  "sku_attention_threshold": 9,
+  "sales_month": "2026-09",
+  "sales_cohort_file": "sales_2026_09.json",
+  "labor_combination": "max(payment_risk,outsourcing_risk)",
+  "outsourcing_is_purchase_objection": true
 }
