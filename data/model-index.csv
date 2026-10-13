@@ -1,0 +1,32 @@
+﻿id,车型,研究范围,动力,开发月数下界,开发月数上界,全球化证据,SKU下界,SKU上界,指数下界,指数上界,状态,待核条件,在售来源
+shangjie_h5,尚界 H5,H5 基础项目；当前 Max+ 配置家族,BEV/EREV,15,15,待核查,6,6,46.0,96.0,购前条件待核,正式召回历史；当前用工主体足额五险一金；当前车型全球化对应,https://hima.auto/shangjie/h5/
+vw_unyx08,大众 与众 08,2026 新上市车系,BEV,24,24,待核查,,,26.7,71.7,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.vw.com.cn/Home/PressReleaseDetail?id=262;https://www.autohome.com.cn/news/202604/1313651.html
+audi_e5,AUDI E5 Sportback,中国字母标 AUDI 首款车系；含后续特别版线索,BEV,,,官方中国专属,,,20.0,85.0,偏好冲突，优先核查,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.saic-audi.cn/audi-e/audi_brand/news.html
+nissan_sylphy,日产 十五代轩逸,只含十五代燃油；经典/十四代/e-POWER 不混入,ICE,,,仅全球设计/发布证据,,,16.0,81.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.dongfeng-nissan.com.cn/car/sylphy-15th;https://www.dongfeng-nissan.com.cn/about/news/brand/2026/02/20260224
+geely_xingyuan,吉利 星愿,当前中国星愿家族,BEV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://dh.geely.com/Home
+honda_crv,本田 CR-V,2026 燃油/HEV 家族，不含独立插混分支,ICE/HEV,,,海外正式车型家族,11,11,10.0,65.0,偏好冲突，优先核查,当前用工主体足额五险一金,https://www.dongfeng-honda.com/cr-v/
+zeekr_7x,极氪 7X,当前中国 7X；不与海外旧硬件直接合并,BEV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.zeekrlife.com/zh-cn/zeekr7x
+byd_seagull,比亚迪 海鸥,中国海鸥当前目录家族；最新年款完整配置待核,BEV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.byd.com/cn/ocean-home/models/haiou/haiou-zhijia
+nio_es6,蔚来 ES6,当前中国 ES6 家族；电池购买与 BaaS 不重复计数,BEV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.nio.io/es6
+aito_m7,问界 M7,2026 年款；五/六座及 BEV/EREV 合并为该车系,BEV/EREV,,,待核查,12,,10.0,100.0,偏好冲突，优先核查,正式召回历史；当前用工主体足额五险一金；当前车型全球化对应,https://hima.auto/wenjie/m7-new/configuration/
+aito_m9,问界 M9,当前官方配置表可见家族；按座位/动力分基本 SKU,BEV/EREV,,,待核查,9,,10.0,100.0,偏好冲突，优先核查,正式召回历史；当前用工主体足额五险一金；当前车型全球化对应,https://hima.auto/wenjie/m9/configuration/
+leap_b10,零跑 B10,当前中国 B10 家族；海外增程扩展单列核查,BEV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.leapmotor.cn/
+leap_c10,零跑 C10,当前中国 C10 家族，双动力共同审查,BEV/EREV,,,海外衍生家族/新旧硬件待匹配,,,10.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.leapmotor.cn/
+geely_e5,吉利 银河 E5,2026 款中国 E5,BEV,,,海外正式车型家族,5,5,3.0,58.0,购前条件待核,当前用工主体足额五险一金,https://galaxy.geely.com/E5
+tesla_model3,特斯拉 Model 3,中国普通及 Performance 家族,BEV,,,海外正式车型家族,4,4,3.0,58.0,购前条件待核,当前用工主体足额五险一金,https://www.tesla.cn/compare
+tesla_modely,特斯拉 Model Y,中国普通五座 Y；不含加长六座 Y L,BEV,,,海外正式车型家族,4,4,3.0,58.0,购前条件待核,当前用工主体足额五险一金,https://www.tesla.cn/compare
+toyota_rav4,丰田 RAV4 荣放,第六代中国家族；具体当前动力/配置待核,HEV,,,海外正式车型家族,,,0.0,65.0,购前条件待核,当前用工主体足额五险一金；完整现售 SKU,https://www.faw.com.cn/fawcn/373694/373706/5926724/index.html
+toyota_camry,丰田 凯美瑞,中国官网 2027 款，电混家族,HEV,,,海外正式车型家族,,,0.0,65.0,购前条件待核,当前用工主体足额五险一金；完整现售 SKU,https://www.gac-toyota.com.cn/vehicles/newCamry
+vw_lavida,大众 朗逸 Pro,Pro 当前目录；朗逸新锐/旧朗逸不混入,ICE,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.svw-volkswagen.com/lavidapro/
+xiaomi_yu7,小米 YU7,YU7 车系；新增标准版和 GT 单独提示,BEV,,,出海计划，未代替实售,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.xiaomiev.com/yu7;https://ir.mi.com/static-files/c48020df-c797-41b5-aed0-141057f7506e
+xiaomi_su7,小米 新一代 SU7,2026 新一代普通 SU7；不含 Ultra,BEV,,,出海计划，未代替实售,3,3,0.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应,https://www.xiaomiev.com/su7
+xpeng_g6,小鹏 G6,2026 年款纯电家族,BEV,,,海外正式车型家族,,,0.0,65.0,购前条件待核,当前用工主体足额五险一金；完整现售 SKU,https://www.xiaopeng.com/news/company_news/5529.html
+xpeng_m03,小鹏 MONA M03,2026 升级款；基于既有滴滴项目的继承关系另记,BEV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.xiaopeng.com/news/company_news/5551.html
+xpeng_p7_erev,小鹏 P7+（增程）,2026 年款 EREV 分支,EREV,,,待核查,2,2,0.0,75.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应,https://www.xiaopeng.com/news/company_news/5529.html;https://www.xiaopeng.com/P7%2B_2026/configuration.html
+xpeng_p7_bev,小鹏 P7+（纯电）,2026 年款 BEV 分支,BEV,,,海外正式车型家族,2,2,0.0,55.0,购前条件待核,当前用工主体足额五险一金,https://www.xiaopeng.com/news/company_news/5529.html;https://www.xiaopeng.com/P7%2B_2026/configuration.html
+byd_songpro,比亚迪 宋 Pro DM-i,当前手册目录的飞驰版家族,PHEV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.byd.com/cn/user-manual
+byd_dolphin,比亚迪 海豚,中国海豚当前目录家族,BEV,,,海外正式车型家族,,,0.0,65.0,购前条件待核,当前用工主体足额五险一金；完整现售 SKU,https://www.byd.com/cn/ocean-home/models/haitun/haitun-zhijia
+byd_qinl,比亚迪 秦 L DM-i,2026 款 DM-i；纯电秦 L 不混入,PHEV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.byd.com/cn/user-manual
+byd_yuanplus,比亚迪 第三代元 PLUS,官方手册目录所列第三代；不套用第一代 ATTO 3,BEV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.byd.com/cn/user-manual
+li_l7,理想 L7,中期报告在售产品家族；具体年款需下单核对,EREV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.sec.gov/Archives/edgar/data/1791706/000110465926105658/tm2624872d2_ex99-1.pdf
+li_l6,理想 新 L6,2026 年 7 月新 L6；不是 2024 首代,EREV,,,待核查,,,0.0,85.0,购前条件待核,当前用工主体足额五险一金；当前车型全球化对应；完整现售 SKU,https://www.sec.gov/Archives/edgar/data/1791706/000110465926105658/tm2624872d2_ex99-1.pdf;https://manuals.lixiang.com/zh-cn/X042026MAX/20260729182848/index.html

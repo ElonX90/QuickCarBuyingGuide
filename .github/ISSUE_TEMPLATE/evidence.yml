@@ -1,0 +1,24 @@
+name: 补充证据或纠错
+description: 为明确的车型/年款提供可追溯资料
+title: '[证据] '
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: 车型、世代/年款、动力和主体
+      placeholder: 例如 尚界 H5 2026 年款 增程 Max+；实际生产企业
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 原始公开来源及事件日期
+      description: 提供具体链接与必要的简短摘记，不上传个人资料或复制全文。
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: 应修改的事实、适用范围和仍不能证明的事项
+    validations:
+      required: true

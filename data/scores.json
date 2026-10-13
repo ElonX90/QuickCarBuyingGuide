@@ -1,0 +1,1584 @@
+{
+  "version": "1.0.0",
+  "as_of": "2026-10-12",
+  "results": [
+    {
+      "id": "shangjie_h5",
+      "name": "尚界 H5",
+      "scope": "H5 基础项目；当前 Max+ 配置家族",
+      "low": 46.0,
+      "high": 96.0,
+      "component_bounds": {
+        "development": [
+          100.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          60.0,
+          60.0
+        ]
+      },
+      "unresolved": [
+        "全球化",
+        "正式召回历史",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          63.0,
+          98.0
+        ],
+        "governance_first": [
+          26.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "id": "vw_unyx08",
+      "name": "大众 与众 08",
+      "scope": "2026 新上市车系",
+      "low": 26.7,
+      "high": 71.7,
+      "component_bounds": {
+        "development": [
+          66.66666666666667,
+          66.66666666666667
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          40.0,
+          70.0
+        ],
+        "governance_first": [
+          13.3,
+          73.3
+        ]
+      }
+    },
+    {
+      "id": "audi_e5",
+      "name": "AUDI E5 Sportback",
+      "scope": "中国字母标 AUDI 首款车系；含后续特别版线索",
+      "low": 20.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          100.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [
+        "与全球化优先偏好不符"
+      ],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "偏好冲突，优先核查",
+      "scenarios": {
+        "cycle_first": [
+          15.0,
+          90.0
+        ],
+        "governance_first": [
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "xiaomi_su7",
+      "name": "小米 新一代 SU7",
+      "scope": "2026 新一代普通 SU7；不含 Ultra",
+      "low": 0.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          85.0
+        ],
+        "governance_first": [
+          0.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "xiaomi_yu7",
+      "name": "小米 YU7",
+      "scope": "YU7 车系；新增标准版和 GT 单独提示",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "tesla_model3",
+      "name": "特斯拉 Model 3",
+      "scope": "中国普通及 Performance 家族",
+      "low": 3.0,
+      "high": 58.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          30.0,
+          30.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          1.5,
+          71.5
+        ],
+        "governance_first": [
+          3.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "id": "tesla_modely",
+      "name": "特斯拉 Model Y",
+      "scope": "中国普通五座 Y；不含加长六座 Y L",
+      "low": 3.0,
+      "high": 58.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          30.0,
+          30.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          1.5,
+          71.5
+        ],
+        "governance_first": [
+          3.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "id": "byd_seagull",
+      "name": "比亚迪 海鸥",
+      "scope": "中国海鸥当前目录家族；最新年款完整配置待核",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "byd_dolphin",
+      "name": "比亚迪 海豚",
+      "scope": "中国海豚当前目录家族",
+      "low": 0.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          75.0
+        ],
+        "governance_first": [
+          0.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "byd_yuanplus",
+      "name": "比亚迪 第三代元 PLUS",
+      "scope": "官方手册目录所列第三代；不套用第一代 ATTO 3",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "byd_qinl",
+      "name": "比亚迪 秦 L DM-i",
+      "scope": "2026 款 DM-i；纯电秦 L 不混入",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "byd_songpro",
+      "name": "比亚迪 宋 Pro DM-i",
+      "scope": "当前手册目录的飞驰版家族",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "geely_xingyuan",
+      "name": "吉利 星愿",
+      "scope": "当前中国星愿家族",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "geely_e5",
+      "name": "吉利 银河 E5",
+      "scope": "2026 款中国 E5",
+      "low": 3.0,
+      "high": 58.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          30.0,
+          30.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          1.5,
+          71.5
+        ],
+        "governance_first": [
+          3.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "id": "zeekr_7x",
+      "name": "极氪 7X",
+      "scope": "当前中国 7X；不与海外旧硬件直接合并",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "li_l6",
+      "name": "理想 新 L6",
+      "scope": "2026 年 7 月新 L6；不是 2024 首代",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "li_l7",
+      "name": "理想 L7",
+      "scope": "中期报告在售产品家族；具体年款需下单核对",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "aito_m7",
+      "name": "问界 M7",
+      "scope": "2026 年款；五/六座及 BEV/EREV 合并为该车系",
+      "low": 10.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          100.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "足额五险一金"
+      ],
+      "objections": [
+        "SKU 已达较多阈值"
+      ],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应"
+      ],
+      "status": "偏好冲突，优先核查",
+      "scenarios": {
+        "cycle_first": [
+          5.0,
+          100.0
+        ],
+        "governance_first": [
+          10.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "aito_m9",
+      "name": "问界 M9",
+      "scope": "当前官方配置表可见家族；按座位/动力分基本 SKU",
+      "low": 10.0,
+      "high": 100.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          100.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          100.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "正式召回历史",
+        "足额五险一金"
+      ],
+      "objections": [
+        "SKU 已达较多阈值"
+      ],
+      "missing_prerequisites": [
+        "正式召回历史",
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应"
+      ],
+      "status": "偏好冲突，优先核查",
+      "scenarios": {
+        "cycle_first": [
+          5.0,
+          100.0
+        ],
+        "governance_first": [
+          10.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "id": "xpeng_m03",
+      "name": "小鹏 MONA M03",
+      "scope": "2026 升级款；基于既有滴滴项目的继承关系另记",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "xpeng_g6",
+      "name": "小鹏 G6",
+      "scope": "2026 年款纯电家族",
+      "low": 0.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          75.0
+        ],
+        "governance_first": [
+          0.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "xpeng_p7_bev",
+      "name": "小鹏 P7+（纯电）",
+      "scope": "2026 年款 BEV 分支",
+      "low": 0.0,
+      "high": 55.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          70.0
+        ],
+        "governance_first": [
+          0.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "id": "xpeng_p7_erev",
+      "name": "小鹏 P7+（增程）",
+      "scope": "2026 年款 EREV 分支",
+      "low": 0.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          85.0
+        ],
+        "governance_first": [
+          0.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "nio_es6",
+      "name": "蔚来 ES6",
+      "scope": "当前中国 ES6 家族；电池购买与 BaaS 不重复计数",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "leap_c10",
+      "name": "零跑 C10",
+      "scope": "当前中国 C10 家族，双动力共同审查",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "leap_b10",
+      "name": "零跑 B10",
+      "scope": "当前中国 B10 家族；海外增程扩展单列核查",
+      "low": 10.0,
+      "high": 75.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          50.0,
+          50.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          7.5,
+          82.5
+        ],
+        "governance_first": [
+          10.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "id": "toyota_camry",
+      "name": "丰田 凯美瑞",
+      "scope": "中国官网 2027 款，电混家族",
+      "low": 0.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          75.0
+        ],
+        "governance_first": [
+          0.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "toyota_rav4",
+      "name": "丰田 RAV4 荣放",
+      "scope": "第六代中国家族；具体当前动力/配置待核",
+      "low": 0.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          75.0
+        ],
+        "governance_first": [
+          0.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "honda_crv",
+      "name": "本田 CR-V",
+      "scope": "2026 燃油/HEV 家族，不含独立插混分支",
+      "low": 10.0,
+      "high": 65.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          100.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金"
+      ],
+      "objections": [
+        "SKU 已达较多阈值"
+      ],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金"
+      ],
+      "status": "偏好冲突，优先核查",
+      "scenarios": {
+        "cycle_first": [
+          5.0,
+          75.0
+        ],
+        "governance_first": [
+          10.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "id": "vw_lavida",
+      "name": "大众 朗逸 Pro",
+      "scope": "Pro 当前目录；朗逸新锐/旧朗逸不混入",
+      "low": 0.0,
+      "high": 85.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          0.0,
+          100.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "全球化",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          0.0,
+          90.0
+        ],
+        "governance_first": [
+          0.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "id": "nissan_sylphy",
+      "name": "日产 十五代轩逸",
+      "scope": "只含十五代燃油；经典/十四代/e-POWER 不混入",
+      "low": 16.0,
+      "high": 81.0,
+      "component_bounds": {
+        "development": [
+          0.0,
+          100.0
+        ],
+        "globalization": [
+          80.0,
+          80.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "labor": [
+          0.0,
+          100.0
+        ],
+        "sku": [
+          0.0,
+          100.0
+        ]
+      },
+      "unresolved": [
+        "开发周期",
+        "足额五险一金",
+        "SKU"
+      ],
+      "objections": [],
+      "missing_prerequisites": [
+        "当前用工主体足额五险一金",
+        "当前车型全球化对应",
+        "完整现售 SKU"
+      ],
+      "status": "购前条件待核",
+      "scenarios": {
+        "cycle_first": [
+          12.0,
+          87.0
+        ],
+        "governance_first": [
+          16.0,
+          76.0
+        ]
+      }
+    }
+  ]
+}

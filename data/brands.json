@@ -1,0 +1,250 @@
+[
+  {
+    "id": "shangjie",
+    "name": "尚界",
+    "recall_status": "not_verified",
+    "recall_sources": [],
+    "related_recall_sources": [
+      "recall_saic"
+    ],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": "新品牌；上汽集团相关企业的旧记录单列，不代替尚界自己的正式记录。"
+  },
+  {
+    "id": "volkswagen",
+    "name": "大众",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_vw"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": "品牌级召回证据；大众安徽与上汽大众、一汽大众是不同法人。"
+  },
+  {
+    "id": "audi",
+    "name": "奥迪 / AUDI",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_vw"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": "按奥迪品牌历史口径计入；字母标 AUDI 子品牌和 E5 当前生产法人仍应另外审查。"
+  },
+  {
+    "id": "xiaomi",
+    "name": "小米汽车",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_xiaomi"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "tesla",
+    "name": "特斯拉",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_tesla"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "byd",
+    "name": "比亚迪",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_byd"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "labor_byd"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "geely",
+    "name": "吉利银河 / 吉利",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_geely"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "labor_geely"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "zeekr",
+    "name": "极氪",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_zeekr"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "labor_zeekr"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "li",
+    "name": "理想",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_li"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": "历史品牌证据；初代 ONE 与新 L6 的制造主体和项目分开记录。"
+  },
+  {
+    "id": "aito",
+    "name": "问界",
+    "recall_status": "not_verified",
+    "recall_sources": [],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "seres_esg"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": "本轮未取得问界品牌正式召回公告。2025 报告零次并非品牌历史零次；也不代表产品没有缺陷。"
+  },
+  {
+    "id": "xpeng",
+    "name": "小鹏",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_xpeng"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "xpeng_didi"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "nio",
+    "name": "蔚来",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_nio"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [
+      "nio_map"
+    ],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "leap",
+    "name": "零跑",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_leap"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "gac_toyota",
+    "name": "广汽丰田",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_camry"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "faw_toyota",
+    "name": "一汽丰田",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_rav4"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "df_honda",
+    "name": "东风本田",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_honda"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  },
+  {
+    "id": "df_nissan",
+    "name": "东风日产",
+    "recall_status": "formal_history_found",
+    "recall_sources": [
+      "recall_nissan"
+    ],
+    "related_recall_sources": [],
+    "recall_unit": "brand_history",
+    "labor_status": "not_verified",
+    "labor_sources": [],
+    "labor_note": "未获得能够覆盖当前用工主体及员工缴费基数、到账和补缴情形的完整足额缴费证据。",
+    "note": ""
+  }
+]

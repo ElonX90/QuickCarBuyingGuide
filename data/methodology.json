@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "as_of": "2026-10-12",
+  "completed_at": "2026-10-13",
+  "research_window": [
+    "2026-10-12",
+    "2026-10-13"
+  ],
+  "market": "中国大陆",
+  "direction": "higher_means_more_scrutiny",
+  "weights": {
+    "development": 40,
+    "globalization": 20,
+    "recall": 15,
+    "labor": 15,
+    "sku": 10
+  },
+  "globalization_points": {
+    "international_family": 0,
+    "derived_family": 50,
+    "global_design": 80,
+    "china_only": 100,
+    "planned": null,
+    "unknown": null
+  },
+  "cycle_zero_months": 36,
+  "cycle_max_months": 18,
+  "sku_bands": [
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      30
+    ],
+    [
+      8,
+      60
+    ],
+    [
+      null,
+      100
+    ]
+  ],
+  "scenarios": {
+    "cycle_first": {
+      "development": 60,
+      "globalization": 15,
+      "recall": 10,
+      "labor": 10,
+      "sku": 5
+    },
+    "governance_first": {
+      "development": 20,
+      "globalization": 20,
+      "recall": 20,
+      "labor": 30,
+      "sku": 10
+    }
+  },
+  "unknown_policy": "full_bounds_no_midpoint",
+  "recall_scope": "brand_history",
+  "sku_attention_threshold": 9
+}

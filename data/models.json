@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "shangjie_h5",
+    "name": "尚界 H5",
+    "brand_id": "shangjie",
+    "scope": "H5 基础项目；当前 Max+ 配置家族",
+    "powertrains": [
+      "BEV",
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "h5_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": [
+        15,
+        15
+      ],
+      "basis": "reported_program_duration",
+      "start_date": null,
+      "end_date": null,
+      "sources": [
+        "h5_cycle"
+      ],
+      "note": "官方转载材料所述立项至量产约十五个月；未披露原始日期；不覆盖年款追加研发。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        6,
+        6
+      ],
+      "sources": [
+        "h5_sku"
+      ],
+      "note": "六个基本版本；纯电四、增程二。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "vw_unyx08",
+    "name": "大众 与众 08",
+    "brand_id": "volkswagen",
+    "scope": "2026 新上市车系",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "vw_current",
+      "unyx_sale"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-04-16",
+    "development": {
+      "months_range": [
+        24,
+        24
+      ],
+      "basis": "reported_program_duration",
+      "start_date": null,
+      "end_date": null,
+      "sources": [
+        "unyx_cycle"
+      ],
+      "note": "官方称最初草图至量产约二十四个月；不等同正式立项至零售上市。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "audi_e5",
+    "name": "AUDI E5 Sportback",
+    "brand_id": "audi",
+    "scope": "中国字母标 AUDI 首款车系；含后续特别版线索",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "audi_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [
+        "audi_cycle",
+        "audi_global"
+      ],
+      "note": "上市问答的记者问题称约二十四个月；高管解释并行研发，未单独给精确月数。官方另证实缩短三成、未给基数。作为关注旁证保留，D 仍未知。"
+    },
+    "globalization": {
+      "level": "china_only",
+      "sources": [
+        "audi_global"
+      ],
+      "note": "官方将该合作产品系列定位为中国专属。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xiaomi_su7",
+    "name": "小米 新一代 SU7",
+    "brand_id": "xiaomi",
+    "scope": "2026 新一代普通 SU7；不含 Ultra",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xiaomi_su7"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "planned",
+      "sources": [
+        "xiaomi_europe"
+      ],
+      "note": "官方计划 2027 年进入欧洲；当前车型海外实际销售仍待证实。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        3,
+        3
+      ],
+      "sources": [
+        "xiaomi_su7"
+      ],
+      "note": "普通系列标准版、Pro、Max；Ultra 为单独产品系列。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xiaomi_yu7",
+    "name": "小米 YU7",
+    "brand_id": "xiaomi",
+    "scope": "YU7 车系；新增标准版和 GT 单独提示",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xiaomi_yu7",
+      "xiaomi_2026"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "planned",
+      "sources": [
+        "xiaomi_europe"
+      ],
+      "note": "欧洲入市计划为 2027 年；未以计划替代实际销售。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "tesla_model3",
+    "name": "特斯拉 Model 3",
+    "brand_id": "tesla",
+    "scope": "中国普通及 Performance 家族",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "tesla_sku"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "tesla_3_uk"
+      ],
+      "note": "英国现售车型家族；各国具体规格需核对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        4,
+        4
+      ],
+      "sources": [
+        "tesla_sku"
+      ],
+      "note": "后驱、长续航后驱、长续航全驱、Performance。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "tesla_modely",
+    "name": "特斯拉 Model Y",
+    "brand_id": "tesla",
+    "scope": "中国普通五座 Y；不含加长六座 Y L",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "tesla_sku"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "tesla_y_uk"
+      ],
+      "note": "英国现售普通车型家族，Y L 不借用该证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        4,
+        4
+      ],
+      "sources": [
+        "tesla_sku"
+      ],
+      "note": "普通 Y 四个基本版本，独立 Y L 不混入。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "byd_seagull",
+    "name": "比亚迪 海鸥",
+    "brand_id": "byd",
+    "scope": "中国海鸥当前目录家族；最新年款完整配置待核",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "byd_seagull"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "byd_surf_map"
+      ],
+      "note": "官方名称映射至欧洲 DOLPHIN SURF；尺寸和硬件有地区差异，不算完全相同国内版本。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "byd_dolphin",
+    "name": "比亚迪 海豚",
+    "brand_id": "byd",
+    "scope": "中国海豚当前目录家族",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "byd_dolphin"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "byd_dolphin_uk"
+      ],
+      "note": "英国 DOLPHIN 配置器实际可见；国内外版本仍需比对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "byd_yuanplus",
+    "name": "比亚迪 第三代元 PLUS",
+    "brand_id": "byd",
+    "scope": "官方手册目录所列第三代；不套用第一代 ATTO 3",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "byd_manual"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "旧 ATTO 3 海外销量不能证明中国第三代元 PLUS 已在海外以同代配置零售。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "byd_qinl",
+    "name": "比亚迪 秦 L DM-i",
+    "brand_id": "byd",
+    "scope": "2026 款 DM-i；纯电秦 L 不混入",
+    "powertrains": [
+      "PHEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "byd_manual"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "byd_songpro",
+    "name": "比亚迪 宋 Pro DM-i",
+    "brand_id": "byd",
+    "scope": "当前手册目录的飞驰版家族",
+    "powertrains": [
+      "PHEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "byd_manual"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "geely_xingyuan",
+    "name": "吉利 星愿",
+    "brand_id": "geely",
+    "scope": "当前中国星愿家族",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "geely_star"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "geely_map",
+        "geely_ex2_sale"
+      ],
+      "note": "EX2 已在巴西上市，年报证实基于星愿开发；当前中国年款硬件与海外待比对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "geely_e5",
+    "name": "吉利 银河 E5",
+    "brand_id": "geely",
+    "scope": "2026 款中国 E5",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "geely_e5"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "geely_map",
+        "geely_e5_launch",
+        "geely_ex5_uk"
+      ],
+      "note": "年报明确 E5/EX5 关联，英国已有正式上市；国内同代各 SKU 仍需验证。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        5,
+        5
+      ],
+      "sources": [
+        "geely_e5"
+      ],
+      "note": "价格卡五个基本版本，不能因为局部配置表仅四列就漏计星舰版。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "zeekr_7x",
+    "name": "极氪 7X",
+    "brand_id": "zeekr",
+    "scope": "当前中国 7X；不与海外旧硬件直接合并",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "zeekr_7x_cn"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "zeekr_7x_sg"
+      ],
+      "note": "新加坡确有 7X 产品；国内新高压年款与该海外配置的世代对应待核。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "li_l6",
+    "name": "理想 新 L6",
+    "brand_id": "li",
+    "scope": "2026 年 7 月新 L6；不是 2024 首代",
+    "powertrains": [
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "li_2026",
+      "li_l6_manual"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [
+        "li_l6_old"
+      ],
+      "note": "2024 初代有超过三年研发的 CEO 表述；不能给 2026 新 L6 直接填三十六月。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "li_l7",
+    "name": "理想 L7",
+    "brand_id": "li",
+    "scope": "中期报告在售产品家族；具体年款需下单核对",
+    "powertrains": [
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "li_2026"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "aito_m7",
+    "name": "问界 M7",
+    "brand_id": "aito",
+    "scope": "2026 年款；五/六座及 BEV/EREV 合并为该车系",
+    "powertrains": [
+      "BEV",
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "m7_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        12,
+        null
+      ],
+      "sources": [
+        "m7_current"
+      ],
+      "note": "单雷达区块已十二列；两套硬件区块不盲目相加，用至少十二的保守下界。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "aito_m9",
+    "name": "问界 M9",
+    "brand_id": "aito",
+    "scope": "当前官方配置表可见家族；按座位/动力分基本 SKU",
+    "powertrains": [
+      "BEV",
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "m9_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        9,
+        null
+      ],
+      "sources": [
+        "m9_current"
+      ],
+      "note": "单雷达区块至少九个基本配置列；不把选装、旧年款重复盲目相加。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xpeng_m03",
+    "name": "小鹏 MONA M03",
+    "brand_id": "xpeng",
+    "scope": "2026 升级款；基于既有滴滴项目的继承关系另记",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xpeng_m03"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-04-02",
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [
+        "xpeng_didi"
+      ],
+      "note": "滴滴资产收购日期及品牌首发日期均不是该车型原始研发起点。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "2026-04-02 发布六款仅做历史参考；当前订购总数未独立确认。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xpeng_g6",
+    "name": "小鹏 G6",
+    "brand_id": "xpeng",
+    "scope": "2026 年款纯电家族",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xpeng_2026"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-01-08",
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "xpeng_eu_sale"
+      ],
+      "note": "德国实际销售证据存在；中国图灵芯片与欧洲版本另比。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "一月发布两款；旧通用配置页仍出现其他续航，不据此断言当前恰好两款。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xpeng_p7_bev",
+    "name": "小鹏 P7+（纯电）",
+    "brand_id": "xpeng",
+    "scope": "2026 年款 BEV 分支",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xpeng_2026",
+      "xpeng_p7_sku"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-01-08",
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "xpeng_p7_eu",
+        "xpeng_p7_produced",
+        "xpeng_p7_retail"
+      ],
+      "note": "欧洲发布和生产落地记录；海外 BEV 与国内 EREV 分开。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        2,
+        2
+      ],
+      "sources": [
+        "xpeng_p7_sku"
+      ],
+      "note": "615/725 Max 旗舰；智能升级包另记，不做基础配置数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "xpeng_p7_erev",
+    "name": "小鹏 P7+（增程）",
+    "brand_id": "xpeng",
+    "scope": "2026 年款 EREV 分支",
+    "powertrains": [
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "xpeng_2026",
+      "xpeng_p7_sku"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-01-08",
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "BEV 欧洲证据不自动继承给增程；该分支海外实际销售待核。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        2,
+        2
+      ],
+      "sources": [
+        "xpeng_p7_sku"
+      ],
+      "note": "1550 Max 科技/旗舰；与 BEV 合计四基本配置。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "nio_es6",
+    "name": "蔚来 ES6",
+    "brand_id": "nio",
+    "scope": "当前中国 ES6 家族；电池购买与 BaaS 不重复计数",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "nio_es6"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "nio_map",
+        "nio_el6"
+      ],
+      "note": "官方 ES6/EL6 命名关系及挪威购车活动；国内最新芯片与海外版本需再核对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "leap_c10",
+    "name": "零跑 C10",
+    "brand_id": "leap",
+    "scope": "当前中国 C10 家族，双动力共同审查",
+    "powertrains": [
+      "BEV",
+      "EREV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "leap_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "leap_uk"
+      ],
+      "note": "英国同名家族实际目录可见；中国升级电压及不同动力须逐版比对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "leap_b10",
+    "name": "零跑 B10",
+    "brand_id": "leap",
+    "scope": "当前中国 B10 家族；海外增程扩展单列核查",
+    "powertrains": [
+      "BEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "leap_current"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "derived_family",
+      "sources": [
+        "leap_uk"
+      ],
+      "note": "英国同名家族目录可见；中国最新硬件与海外不自动同代。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "toyota_camry",
+    "name": "丰田 凯美瑞",
+    "brand_id": "gac_toyota",
+    "scope": "中国官网 2027 款，电混家族",
+    "powertrains": [
+      "HEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "camry_cn"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "camry_retail"
+      ],
+      "note": "美国凯美瑞现售家族有官方产品及购买入口；中国 2027 年款本土配置不自动等同海外。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "toyota_rav4",
+    "name": "丰田 RAV4 荣放",
+    "brand_id": "faw_toyota",
+    "scope": "第六代中国家族；具体当前动力/配置待核",
+    "powertrains": [
+      "HEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "rav4_cn"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "rav4_global",
+        "rav4_retail"
+      ],
+      "note": "第六代官方发布与美国现售目录相互补充；国际车型家族已售，中国动力与安全配置仍需独立比对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "honda_crv",
+    "name": "本田 CR-V",
+    "brand_id": "df_honda",
+    "scope": "2026 燃油/HEV 家族，不含独立插混分支",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "crv_cn"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "international_family",
+      "sources": [
+        "crv_global"
+      ],
+      "note": "Honda 官方资料证实第六代北美/中国销售；国内外具体配置差异仍待比对。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": [
+        11,
+        11
+      ],
+      "sources": [
+        "crv_cn"
+      ],
+      "note": "燃油五款、HEV 六款；混合动力和座位变化算基本配置差异。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "vw_lavida",
+    "name": "大众 朗逸 Pro",
+    "brand_id": "volkswagen",
+    "scope": "Pro 当前目录；朗逸新锐/旧朗逸不混入",
+    "powertrains": [
+      "ICE"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "lavida_cn"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": null,
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "unknown",
+      "sources": [],
+      "note": "未获得足以区分当前车型家族实际海外销售与出海计划的完整证据。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "完整当前目录未验证；不使用旧年款或发布初期配置数冒充当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  },
+  {
+    "id": "nissan_sylphy",
+    "name": "日产 十五代轩逸",
+    "brand_id": "df_nissan",
+    "scope": "只含十五代燃油；经典/十四代/e-POWER 不混入",
+    "powertrains": [
+      "ICE"
+    ],
+    "sale_status": "official_catalogue_or_dated_launch",
+    "sale_sources": [
+      "sylphy_cn",
+      "sylphy_launch"
+    ],
+    "sale_checked_at": "2026-10-12",
+    "current_stock_confirmed": false,
+    "launch_date": "2026-02-24",
+    "development": {
+      "months_range": null,
+      "basis": "unknown",
+      "start_date": null,
+      "end_date": null,
+      "sources": [],
+      "note": "未取得与本样本世代匹配的车型正式立项日期或明确整车开发周期。"
+    },
+    "globalization": {
+      "level": "global_design",
+      "sources": [
+        "sylphy_cn"
+      ],
+      "note": "厂商称全球战略车型，但同代海外实际销售未取得。",
+      "domestic_configuration_equivalence": "not_verified",
+      "domestic_ecall": "not_verified"
+    },
+    "sku": {
+      "count_range": null,
+      "sources": [],
+      "note": "二月发布三款，不当作十月当前总数。"
+    },
+    "manufacturer_entity": "not_verified",
+    "manufacturer_mapping_sources": []
+  }
+]
