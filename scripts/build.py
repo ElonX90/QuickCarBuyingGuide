@@ -153,12 +153,15 @@ def validate(models, brands, sources, config):
             raise ValueError('A positive recall-history claim requires a formal notice')
         if any(next(s for s in sources if s['id']==r)['type'] != 'recall_notice' for r in brand['recall_sources']):
             raise ValueError('Recall evidence must be a formal notice')
-        if brand['labor_status'] != 'not_verified' and not brand['labor_sources']:
-            raise ValueError('Labor findings require evidence')
+        if brand['labor_status'] != 'not_verified' and (not brand['labor_sources'] or
+                not all(brand.get(k) for k in ('labor_entity','labor_period','labor_scope'))):
+            raise ValueError('Labor findings require evidence, entity, period and scope')
     for m in models:
         if m['brand_id'] not in brand_map or not m['sale_sources']:
             raise ValueError(f'Incomplete eligibility: {m["id"]}')
-        refs(m['sale_sources'] + m['development']['sources'] + m['globalization']['sources'] + m['sku']['sources'])
+        refs(m['sale_sources'] + m['development']['sources'] + m['globalization']['sources'] + m['sku']['sources'] + m.get('manufacturer_mapping_sources', []))
+        if m['manufacturer_entity'] != 'not_verified' and not m.get('manufacturer_mapping_sources'):
+            raise ValueError('A manufacturer mapping requires reviewed evidence')
         if m['globalization']['level'] not in config['globalization_points']:
             raise ValueError('Unknown globalization level')
         if m['globalization']['level'] != 'unknown' and not m['globalization']['sources']:

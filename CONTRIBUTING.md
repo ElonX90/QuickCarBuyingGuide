@@ -26,6 +26,8 @@
 
 Fork 仓库，在分支修改 sources.json，然后修改 models.json、brands.json 或销量数据中的具体字段；勿手改生成表和最终分数。首次登记来源可设 review.status=pending，但被正式观察引用前必须经维护者接受并补齐审阅记录。未获核实数值使用 null，开口范围使用 [下界, null]。
 
+足额缴费或欠缴结论必须有 labor_sources、labor_entity、labor_period、labor_scope；生产法人对应必须有 manufacturer_mapping_sources，所引来源也须 accepted。
+
 外包用工存在/不存在的结论必须有 outsourcing_sources、outsourcing_entity、outsourcing_period、outsourcing_scope；“无外包”尤其需要完整范围实证，不能从招聘空白推定。
 
 运行：

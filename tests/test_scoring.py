@@ -123,5 +123,23 @@ class ScoringTests(unittest.TestCase):
             build.validate_cohort(self.models,self.sources,self.config,orphan)
 
 
+    def test_manufacturer_mapping_cannot_use_pending_evidence(self):
+        models=copy.deepcopy(self.models)
+        sources=copy.deepcopy(self.sources)
+        sid=models[0]['sale_sources'][0]
+        next(s for s in sources if s['id']==sid)['review']['status']='pending'
+        models[0]['sale_sources']=[self.models[1]['sale_sources'][0]]
+        models[0]['manufacturer_mapping_sources']=[sid]
+        with self.assertRaises(ValueError):
+            build.validate(models,self.brands,sources,self.config)
+
+    def test_labor_payment_claim_needs_subject_period_and_scope(self):
+        brands=copy.deepcopy(self.brands)
+        brands[0]['labor_status']='verified_full_scope'
+        brands[0]['labor_sources']=[self.sources[0]['id']]
+        with self.assertRaises(ValueError):
+            build.validate(self.models,brands,self.sources,self.config)
+
+
 if __name__=='__main__':
     unittest.main()
