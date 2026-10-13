@@ -9,7 +9,7 @@ def get(url):
     return body
 def lists(obj):
     if isinstance(obj,list):
-        if obj and isinstance(obj[0],dict) and "seriesid" in obj[0] and "salecount" in obj[0]:
+        if obj and isinstance(obj[0],dict) and "seriesid" in obj[0] and ("salecount" in obj[0] or "rightinfo" in obj[0]):
             yield obj
         for v in obj:
             yield from lists(v)
@@ -30,6 +30,6 @@ for page in [1,2]:
     current=found[0]
     print("PAGE_COUNT",page,len(current))
     for row in current:
-        print("SALES_ROW",json.dumps({k:row.get(k) for k in ["rankNum","rank","seriesid","seriesname","salecount","brandid","brandname","energytype"]},ensure_ascii=False))
+        print("SALES_ROW",json.dumps({"rank":int(row.get("rankNum") or row["rank"]),"series_id":str(row["seriesid"]),"series_name":row["seriesname"],"sales":int(row.get("salecount") or row["rightinfo"]["righttextone"]),"brand_id":row.get("brandid"),"energy_flag":row.get("energytype")},ensure_ascii=False))
     rows+=current
 print("SOURCE_COUNTS",len(rows),len({str(x["seriesid"]) for x in rows}))
