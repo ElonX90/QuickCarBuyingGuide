@@ -111,6 +111,7 @@ async function noOverflow(page, width) {
     const injection = '<img src=x onerror="window.bad=1">';
     const notes = '虚拟测试来源笔记，不涉及任何真实企业或员工资料';
     await page.locator('#car-name').fill(injection);
+    await page.locator('.evidence > summary').click();
     await page.locator('#evidence-notes').fill(notes);
     assert.equal(await page.evaluate(() => window.bad), undefined);
     assert.equal(await page.locator('#result-car img').count(), 0);

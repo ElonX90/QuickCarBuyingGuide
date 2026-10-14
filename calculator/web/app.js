@@ -78,17 +78,17 @@
   form.addEventListener('input', () => { if (hasCalculated) calculate(false); });
   form.addEventListener('change', () => { if (hasCalculated) calculate(false); });
   byId('reset').addEventListener('click', () => {
-    form.reset(); hasCalculated = false; current = null; byId('form-error').hidden = true;
+    HTMLFormElement.prototype.reset.call(form); hasCalculated = false; current = null; byId('form-error').hidden = true;
     byId('result-details').hidden = true; byId('score-value').textContent = '—'; byId('score-caption').textContent = '填你知道的，不知道的留空。'; byId('result-badge').textContent = '等你填写';
     byId('result-car').textContent = '每一个分数，都有来由。'; byId('range-fill').style.width = '0'; ['low', 'high'].forEach(k => { byId('range-' + k).style.display = 'none'; });
     byId('interpretation').textContent = '这个指数将你的购车偏好变成计分。它不是“成为速成车的概率”，也不是安全测评。'; toast('已清空本次输入；保存的草稿可单独删除。');
   });
   byId('example').addEventListener('click', () => {
-    form.reset(); fields.carName.value = '虚拟示例车 · 非真实车型'; fields.developmentMonths.value = '24'; fields.globalization.value = 'international_family'; fields.recall.value = 'history'; fields.skuCount.value = '4';
+    HTMLFormElement.prototype.reset.call(form); fields.carName.value = '虚拟示例车 · 非真实车型'; fields.developmentMonths.value = '24'; fields.globalization.value = 'international_family'; fields.recall.value = 'history'; fields.skuCount.value = '4';
     fields.evidenceNotes.value = '这是演示公式的虚拟输入，不对应任何真实车企或车型。'; calculate(true); toast('已载入虚拟示例，用工两项仍未知。');
   });
   byId('save-draft').addEventListener('click', () => { try { readInputs(); const draft = Object.fromEntries(Object.entries(fields).map(([name, field]) => [name, field.value])); localStorage.setItem(storageKey, JSON.stringify({ version: 1, fields: draft })); toast('草稿已保存在本机浏览器。'); } catch (e) { toast('未保存：' + e.message); } });
-  byId('restore-draft').addEventListener('click', () => { try { const value = localStorage.getItem(storageKey); if (!value) { toast('本机还没有保存的草稿。'); return; } const draft = JSON.parse(value); if (draft.version !== 1 || !draft.fields || typeof draft.fields !== 'object') throw new Error('草稿格式不支持'); form.reset(); Object.entries(fields).forEach(([name, field]) => { if (typeof draft.fields[name] === 'string') field.value = draft.fields[name].slice(0, field.maxLength > 0 ? field.maxLength : 4000); }); calculate(false); toast('已读取本机草稿。'); } catch (e) { toast('无法读取草稿，请删除后重新保存。'); } });
+  byId('restore-draft').addEventListener('click', () => { try { const value = localStorage.getItem(storageKey); if (!value) { toast('本机还没有保存的草稿。'); return; } const draft = JSON.parse(value); if (draft.version !== 1 || !draft.fields || typeof draft.fields !== 'object') throw new Error('草稿格式不支持'); HTMLFormElement.prototype.reset.call(form); Object.entries(fields).forEach(([name, field]) => { if (typeof draft.fields[name] === 'string') field.value = draft.fields[name].slice(0, field.maxLength > 0 ? field.maxLength : 4000); }); calculate(false); toast('已读取本机草稿。'); } catch (e) { toast('无法读取草稿，请删除后重新保存。'); } });
   byId('delete-draft').addEventListener('click', () => { try { localStorage.removeItem(storageKey); toast('保存的草稿已删除。'); } catch (e) { toast('当前浏览器不允许管理本机存储。'); } });
   function summaryText() {
     const r = current.result;
