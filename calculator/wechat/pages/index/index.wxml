@@ -1,0 +1,90 @@
+<view class="page">
+  <view class="hero">
+    <text class="eyebrow">QUICK CAR · 开源选车工具</text>
+    <view class="hero-title">把你的疑问，<text class="title-accent">变成可核查的指数。</text></view>
+    <text class="hero-copy">按五个维度输入资料。指数越高，越符合这套选购偏好中的关注特征。</text>
+    <view class="notice">按你的输入计算，尚未经审核；指数不是事故概率。</view>
+  </view>
+
+  <view class="section-label"><text>填写你知道的事实</text><text class="section-side">不清楚就保留未知</text></view>
+  <view wx:if="isExample" class="example-note">虚拟示例 · 仅用于演示填法，不对应任何真实车型。</view>
+
+  <view class="card field-card">
+    <view class="field-head"><view class="step">01</view><text class="field-title">研发周期</text><text class="weight">权重 40</text></view>
+    <text class="field-help">同一车型从正式立项到上市的月数。草图、量产、交付等日期不能直接替代。</text>
+    <view class="number-control"><input type="digit" value="{{developmentMonths}}" placeholder="未知请留空" placeholder-class="placeholder" maxlength="12" bindinput="onNumberInput" data-field="developmentMonths" aria-label="立项到上市月数" /><text class="unit">个月</text></view>
+    <text class="microcopy">18 个月及以下记 100 分；36 个月及以上记 0 分，中间线性计算。这是偏好阈值。</text>
+  </view>
+
+  <view class="card field-card">
+    <view class="field-head"><view class="step">02</view><text class="field-title">全球化程度</text><text class="weight">权重 20</text></view>
+    <text class="field-help">看具体车型、代际及硬件，不只看品牌有没有海外业务。</text>
+    <picker mode="selector" range="{{globalizationOptions}}" range-key="label" value="{{globalizationIndex}}" bindchange="onPickerChange" data-field="globalization"><view class="select-control"><text>{{globalizationOptions[globalizationIndex].label}}</text><text class="chevron">⌄</text></view></picker>
+    <text class="microcopy">车型在海外销售也不能证明中国版本配置完全相同。</text>
+  </view>
+
+  <view class="card field-card">
+    <view class="field-head"><view class="step">03</view><text class="field-title">正式召回历史</text><text class="weight">权重 15</text></view>
+    <text class="field-help">该车企是否有监管部门发布的正式召回记录？免费升级不自动算正式召回。</text>
+    <picker mode="selector" range="{{recallOptions}}" range-key="label" value="{{recallIndex}}" bindchange="onPickerChange" data-field="recall"><view class="select-control"><text>{{recallOptions[recallIndex].label}}</text><text class="chevron">⌄</text></view></picker>
+    <text class="microcopy">仅未搜索到记录请保留未知；不能推断有问题而没有召回。</text>
+  </view>
+
+  <view class="card field-card">
+    <view class="field-head"><view class="step">04</view><text class="field-title">用工保障</text><text class="weight">权重 15</text></view>
+    <text class="field-help">需核对生产企业主体、员工范围和时间。两小项取较高关注分，不重复加分。</text>
+    <text class="sub-label">五险一金</text>
+    <picker mode="selector" range="{{socialInsuranceOptions}}" range-key="label" value="{{socialInsuranceIndex}}" bindchange="onPickerChange" data-field="socialInsurance"><view class="select-control"><text>{{socialInsuranceOptions[socialInsuranceIndex].label}}</text><text class="chevron">⌄</text></view></picker>
+    <text class="sub-label">外包 / 劳务派遣员工</text>
+    <picker mode="selector" range="{{outsourcingOptions}}" range-key="label" value="{{outsourcingIndex}}" bindchange="onPickerChange" data-field="outsourcing"><view class="select-control"><text>{{outsourcingOptions[outsourcingIndex].label}}</text><text class="chevron">⌄</text></view></picker>
+    <text class="microcopy">普通零部件采购、独立经销商不自动计为车企外包员工。外包存在本身不等于违法。</text>
+  </view>
+
+  <view class="card field-card">
+    <view class="field-head"><view class="step">05</view><text class="field-title">车型 SKU 数量</text><text class="weight">权重 10</text></view>
+    <text class="field-help">当前同一车型的在售基础配置版本数，不把车色、金融方案和选装排列组合重复计数。</text>
+    <view class="number-control"><input type="number" value="{{skuCount}}" placeholder="未知请留空" placeholder-class="placeholder" maxlength="8" bindinput="onNumberInput" data-field="skuCount" aria-label="在售基础配置版本数量" /><text class="unit">个版本</text></view>
+    <text class="microcopy">1–3 个：0 分；4–5 个：30 分；6–8 个：60 分；9 个及以上：100 分。</text>
+  </view>
+
+  <view wx:if="error" class="error" role="alert">{{error}}</view>
+  <button class="primary-button" bindtap="onCalculate">计算关注指数</button>
+  <view class="secondary-actions"><button class="text-button" bindtap="onClear">清空输入</button><button class="text-button" bindtap="onExample">加载虚拟示例</button></view>
+
+  <view wx:if="result" id="result" class="result-section">
+    <view class="card result-card">
+      <view class="result-top"><text class="result-kicker">速成车关注指数</text><text class="result-status">{{result.inputsComplete ? '输入完整' : (result.isExact ? '区间收敛' : '保留未知')}}</text></view>
+      <view class="score-line"><text class="score">{{scoreDisplay}}</text><text class="score-denominator">/ 100</text></view>
+      <text class="result-explanation">{{result.inputsComplete ? '所有计分项已填写，这是本套规则的计算值。' : (result.isExact ? '当前规则下区间已收敛，仍有输入未知。' : '下界只包含已输入事实支持的分值；上界包含未知项可能增加的分值。')}}</text>
+      <view class="metric-row"><text>已确定计分权重</text><text class="metric-value">{{result.knownWeight}}%</text></view>
+      <view class="progress-track"><view class="progress-fill" style="width: {{result.knownWeight}}%;"></view></view>
+      <text class="microcopy">仅按你的填写状态统计，不代表资料已经校核或结果准确率。</text>
+      <view wx:if="result.unknowns.length" class="unknown-box"><text class="gap-label">仍未知的输入</text><text wx:for="{{result.unknowns}}" wx:key="field" class="unknown-item">{{item.label}}：{{item.reason}}</text><text class="microcopy">即使某项计分已固定，未知输入也没有被核实。例如外包令用工项记满分，仍不能证明五险一金的实际缴费情况。</text></view>
+      <view wx:if="largestGapText" class="gap-box"><text class="gap-label">最值得补充的资料</text><text>{{largestGapText}}</text></view>
+      <view wx:if="result.objections.length" class="preference-box"><text class="gap-label">你的选购偏好提示</text><text wx:for="{{result.objections}}" wx:key="code" class="objection">{{item.message}}</text><text class="microcopy">以上依据你的输入触发，尚未经审核，也不直接证明车辆质量。</text></view>
+      <text class="notice result-notice">按你的输入计算，尚未经审核；指数不是事故概率。</text>
+    </view>
+
+    <view class="card contribution-card">
+      <view class="card-title">每一项如何影响结果</view>
+      <view wx:for="{{dimensionRows}}" wx:key="id" class="contribution-row"><view><text class="contribution-name">{{item.label}}</text><text class="contribution-meta">权重 {{item.weight}} · {{item.known ? (item.unknownInputs.length ? '分值确定，仍有未知' : '已填写') : '含未知'}}</text></view><text class="contribution-value">{{item.display}} 分</text></view>
+      <text class="microcopy">总指数 = 研发 × 40% + 全球化 × 20% + 召回 × 15% + 用工 × 15% + SKU × 10%。用工 = 五险一金与外包两项较高分。</text>
+      <text class="microcopy">每项均为 0–100 分；表中展示的是乘以权重后的贡献。未知项按 0–100 分保留，不取中间值。</text>
+    </view>
+    <button class="outline-button" bindtap="onSaveHistory">保存到本机记录</button>
+  </view>
+
+  <view wx:if="history.length" class="history-section">
+    <view class="section-label"><text>本机记录 · 最多 5 条</text><button class="small-text-button" bindtap="onClearHistory">删除记录</button></view>
+    <view class="card history-card"><button wx:for="{{history}}" wx:key="id" class="history-item" bindtap="onLoadHistory" data-id="{{item.id}}"><view><text class="history-title">{{item.scoreDisplay}} / 100</text><text class="history-date">{{item.dateLabel}}{{item.isExample ? ' · 虚拟示例' : ''}}</text></view><text class="history-load">载入 ⤴</text></button></view>
+    <text class="microcopy local-only">只保存在本机。载入时按当前规则重新计算，关闭小程序也不会上传。</text>
+  </view>
+
+  <view class="card footer-card">
+    <view class="card-title">让资料越来越可靠</view>
+    <text class="footer-copy">欢迎去 GitHub 提交证据：附原始来源链接、日期、车型版本、企业主体和适用范围。维护者核查通过后，再进入公开数据。</text>
+    <text class="repo-address" selectable="{{true}}">github.com/ElonX90/QuickCarBuyingGuide</text>
+    <button class="share-button" open-type="share">把计算器分享给朋友</button>
+    <text class="microcopy">分享仅发送工具入口，不附带你的输入、指数或本机记录。无登录、无后端、无网络请求。</text>
+  </view>
+</view>

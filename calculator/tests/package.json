@@ -1,0 +1,15 @@
+{
+  "name": "quickcar-calculator-browser-tests",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser smoke tests for the static calculator; no production dependencies.",
+  "scripts": {
+    "test": "node browser.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

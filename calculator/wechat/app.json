@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "速成车指数计算器",
+    "navigationBarBackgroundColor": "#f7f5ed",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f5ed"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

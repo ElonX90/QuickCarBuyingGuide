@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#193e35">
+  <meta name="description" content="根据开发周期、全球化、召回、用工和SKU，计算可解释的速成车关注指数。未知资料保留区间，本地计算，无需登录。">
+  <title>速成车计算器 · 买车前，多问一步</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scoring.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">Q<span>↗</span></span><span>速成车计算器<small>QUICK CAR GUIDE</small></span></div><a href="https://github.com/ElonX90/QuickCarBuyingGuide" target="_blank" rel="noopener noreferrer">开源指南 ↗</a></header>
+  <main class="container">
+    <section class="intro"><div class="eyebrow"><span></span> 买车前，多问一步</div><h1>把已知的资料，<br>变成看得懂的判断。</h1><p>从开发时间到用工保障，按你的购车偏好算一算。<br class="desktop">不知道也可以选，缺失资料会保留为区间。</p><div class="intro-tags"><span>本地计算</span><span>无需登录</span><span>五个维度</span></div></section>
+    <div class="workspace">
+      <section class="input-panel" aria-labelledby="input-title">
+        <div class="panel-heading"><div><p class="eyebrow">01 / 填写资料</p><h2 id="input-title">先填你知道的</h2></div><button id="example" class="text-button" type="button">试试虚拟示例 ↗</button></div>
+        <form id="calculator" novalidate>
+          <div class="car-field"><label for="car-name">车型 / 年款 <span>选填</span></label><input id="car-name" name="carName" maxlength="80" placeholder="例如：某车型 2026款 · 纯电版" autocomplete="off"><p class="field-help">不同年款、动力版本分开计算。</p></div>
+          <div class="question"><div class="question-label"><span class="step">1</span><div><label for="development">整车开发时间</label><p>从明确项目起点，到明确上市或量产节点</p></div><span class="weight">40%</span></div><div class="number-field"><input id="development" name="developmentMonths" type="number" min="0.1" step="any" inputmode="decimal" placeholder="不知道就留空"><span>个月</span></div><details class="help"><summary>这个时间怎么填？</summary><p>尽量使用正式立项到上市的跨度。草图到量产、平台开发、改款周期不是同一起止口径，不能直接互比。短周期也不单独证明验证不足。</p></details></div>
+          <div class="question"><div class="question-label"><span class="step">2</span><div><label for="globalization">是否为全球化车型？</label><p>看同代车型与动力，不能只看品牌</p></div><span class="weight">20%</span></div><select id="globalization" name="globalization"><option value="unknown">不知道 / 资料不足</option><option value="international_family">已确认有海外正式销售的同代车型家族</option><option value="derived_family">有海外衍生车型，但硬件对应仍待核</option><option value="global_design">只确认全球设计或国际发布</option><option value="china_only">厂商明确为中国专属车型</option><option value="planned">只有出海计划，尚未确认实售</option></select><p class="field-help">海外有车型不代表国内版的安全配置全部一致。</p></div>
+          <div class="question"><div class="question-label"><span class="step">3</span><div><label for="recall">车企有正式召回记录吗？</label><p>以目标品牌的监管公告为依据</p></div><span class="weight">15%</span></div><select id="recall" name="recall"><option value="unknown">不知道 / 只是在搜索中没找到</option><option value="history">有目标品牌的正式召回记录</option><option value="no_history">有充分依据确认没有正式召回历史</option><option value="documented_failure">有证据确认召回整改存在问题</option></select><p class="field-help">“没搜到”选不知道；有召回记录也不等于质量更好。</p></div>
+          <div class="question"><div class="question-label"><span class="step">4</span><div><span class="label">用工保障</span><p>两项分别判断，任一冲突都不能抵消</p></div><span class="weight">15%</span></div><label class="sub-label" for="insurance">依法足额缴纳五险一金？</label><select id="insurance" name="socialInsurance"><option value="unknown">不知道 / 没有完整范围的证据</option><option value="full">已确认指定主体与时间范围依法足额缴纳</option><option value="shortfall">有证据确认欠缴，且尚未整改</option></select><label class="sub-label" for="outsourcing">存在外包或劳务派遣员工？</label><select id="outsourcing" name="outsourcing"><option value="unknown">不知道 / 没有完整范围的证据</option><option value="present">已确认存在实际岗位的外包或派遣员工</option><option value="absent">已确认指定主体与时间范围不存在</option></select><details class="help"><summary>外包的范围是什么？</summary><p>指为车企实际承担岗位工作的第三方用工或劳务派遣。普通零部件采购、独立经销商不自动计入。招聘承诺或“没有搜到”不能证明完整通过。合法外包是否符合购车偏好，与是否违法是不同问题。</p></details></div>
+          <div class="question"><div class="question-label"><span class="step">5</span><div><label for="sku">当前有多少个基本配置？</label><p>按在售动力、电池、驱动、座位及配置版本计</p></div><span class="weight">10%</span></div><div class="number-field"><input id="sku" name="skuCount" type="number" min="1" step="1" inputmode="numeric" placeholder="不知道就留空"><span>款</span></div><p class="field-help">不把车漆、轮毂、金融方案相乘；数量是复杂度提示。</p></div>
+          <details class="evidence"><summary>记录资料来源 <span>选填 · 仅保存在本机</span></summary><label class="sr-only" for="evidence-notes">资料链接、日期与适用范围</label><textarea id="evidence-notes" name="evidenceNotes" rows="3" maxlength="4000" placeholder="可记下原始链接、日期、企业主体和适用年款。分享摘要不包含这些笔记。"></textarea><p>本页不会自动核验资料或提交到公共车型库。</p></details>
+          <div id="form-error" class="form-error" role="alert" hidden></div>
+          <div class="form-actions"><button class="primary-button" type="submit">计算关注指数 <span aria-hidden="true">→</span></button><button id="reset" class="secondary-button" type="button">清空</button></div>
+          <div class="draft-actions"><button id="save-draft" class="text-button" type="button">保存到本机</button><button id="restore-draft" class="text-button" type="button">读取草稿</button><button id="delete-draft" class="text-button" type="button">删除草稿</button></div>
+        </form>
+      </section>
+      <aside class="results-panel" id="result-panel" aria-labelledby="result-title">
+        <div class="result-top"><p class="eyebrow">02 / 看懂结果</p><span id="result-badge" class="result-badge">等你填写</span></div><h2 id="result-title">速成车关注指数</h2><p id="result-car" class="result-car">每一个分数，都有来由。</p>
+        <div class="score-display"><span id="score-value">—</span><span class="score-unit">/ 100</span></div><p id="score-caption" class="score-caption">填你知道的，不知道的留空。</p>
+        <div class="range-track" aria-hidden="true"><span id="range-fill"></span><i id="range-low"></i><i id="range-high"></i></div><div class="range-labels"><span>0 · 少关注特征</span><span>100 · 多关注特征</span></div>
+        <div class="interpretation" id="interpretation">这个指数将你的购车偏好变成计分。它不是“成为速成车的概率”，也不是安全测评。</div>
+        <div id="result-details" hidden>
+          <div class="coverage"><span>已确定计分权重 <strong id="coverage-value">0%</strong></span><div class="coverage-track"><span id="coverage-fill"></span></div><p>表示资料覆盖，不是准确率。</p></div>
+          <div id="objections" class="objections" hidden></div>
+          <div class="breakdown-heading"><h3>分数如何组成</h3><span>权重 × 单项分值</span></div><div id="breakdown"></div>
+          <div class="next-evidence"><h3>补哪项最有用？</h3><p id="next-evidence"></p></div>
+          <div class="result-actions"><button id="copy-result" class="secondary-button" type="button">复制结果</button><button id="export-result" class="secondary-button" type="button">下载记录</button></div>
+          <p class="self-report">按你的输入计算，未经资料审核。结果仅对应所填年款、主体和时间范围。</p>
+        </div>
+        <details class="method"><summary>查看计算规则</summary><p>开发40%、全球化20%、召回15%、用工15%、SKU10%。开发≤18个月记100，≥36个月记0，中间线性变化。用工取缴费与外包两项较高分。未知项保留0–100，分别算总分下界和上界。</p><p>这些权重和阈值是可讨论的编辑偏好，尚未用独立质量数据校准。区间没有“最可能中点”，两辆车的区间重叠时无法确定高低。</p><a href="https://github.com/ElonX90/QuickCarBuyingGuide/blob/main/docs/INDEX_FAQ.md" target="_blank" rel="noopener noreferrer">完整规则与分段 ↗</a></details>
+      </aside>
+    </div>
+    <section class="community"><div><span class="eyebrow">让证据越来越完整</span><h2>资料有出处，判断才有底气。</h2><p>发现新资料，可以附原始链接、日期和适用范围参与共建。<br>维护者核对证据后，才会更新公共车型库。</p></div><a class="secondary-button" href="https://github.com/ElonX90/QuickCarBuyingGuide/issues/new?template=evidence.yml" target="_blank" rel="noopener noreferrer">提交车型证据 ↗</a></section>
+    <footer><span>QUICK CAR GUIDE · 计算器 0.1</span><span>不需要输入姓名、手机号或车架号。</span></footer>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

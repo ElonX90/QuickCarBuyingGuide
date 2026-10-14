@@ -1,0 +1,15 @@
+{
+  "description": "离线速成车关注指数计算器：无登录、无后端",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "QuickCarCalculator",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "condition": {}
+}
