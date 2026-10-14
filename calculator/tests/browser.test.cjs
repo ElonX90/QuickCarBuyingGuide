@@ -52,6 +52,8 @@ async function noOverflow(page, width) {
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
   const layout = await page.evaluate(() => ({ viewport: document.documentElement.clientWidth, document: document.documentElement.scrollWidth, body: document.body.scrollWidth }));
   assert.ok(layout.document <= layout.viewport && layout.body <= layout.viewport, 'Horizontal overflow at ' + width + 'px: ' + JSON.stringify(layout));
+  const scoreLine = await page.locator('#score-value').evaluate(el => ({ height: el.getBoundingClientRect().height, lineHeight: parseFloat(getComputedStyle(el).lineHeight) }));
+  assert.ok(scoreLine.height <= scoreLine.lineHeight + 2, 'Score range wraps at ' + width + 'px');
 }
 
 (async () => {
@@ -158,6 +160,7 @@ async function noOverflow(page, width) {
 
     // Screenshots contain only the virtual example, not the text injection or user data.
     await page.locator('#example').click();
+    await page.locator('#toast').waitFor({ state: 'hidden' });
     await page.screenshot({ path: path.join(artifacts, 'desktop.png'), fullPage: true });
     for (const width of [320, 375, 390, 430, 768, 1024, 1280]) await noOverflow(page, width);
     await noOverflow(page, 390);
