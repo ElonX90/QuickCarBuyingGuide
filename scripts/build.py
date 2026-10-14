@@ -232,21 +232,22 @@ def render(models, brands, sources, config):
     sm = {s['id']:s for s in sources}
     scored = [score(m,bm[m['brand_id']],config) for m in models]
     by_id = {m['id']:m for m in models}
-    # This is a display order of established points, never an asserted safety ranking.
+    # Descending established minimum; equal lower bounds are tied, never a safety ranking.
     display = sorted(scored, key=lambda r:(-r['low'],r['name']))
     docs = ROOT/'docs'
     docs.mkdir(exist_ok=True)
     lines = ['# 车型指数与购前条件', '',
              f'数据版本：{config["version"]}；来源检索窗口：{config["research_window"][0]} 至 {config["research_window"][1]}；市场：中国大陆。', '',
-             '**分数越高表示本指南的核查优先度越高。区间是未知项的可能计分上下界，不是事故概率、统计置信区间或安全测评。表格按已确认计分下界排列，仅为方便阅读；不能按下界、上界或中点宣称车的安全优劣。**', '',
+             '**分数越高，越符合本指南定义的速成车关注特征。下表按“已确认最低分”从大到小排列；最低分相同的车型并列，名称只决定并列项的显示顺序。区间重叠时不能确定最终分数谁更高；它不是事故概率或安全排名。**', '',
+             '“待补证可变分数”=指数上界−下界，表示缺失或范围不完整的资料最多还能改变多少分。下界为0只表示尚未确认正向计分，不表示不是速成车或更安全；上界100也不表示已被证实是速成车。不使用区间中点或上界伪造精确次序。[区间为什么大、怎么算](INDEX_FAQ.md#为什么区间这么大)。', '',
              '已纳入 2026 年 9 月固定榜单前 100 个车系，另保留首版对照车型。销量车系与明确年款的评分观察并非一一等同。[前 100 覆盖表](SALES_TOP100.md) 单独列出映射与缺口。大部分车型未公开本代立项时间；当前员工级足额缴费和无外包完整范围证明仍待补齐。', '',
              '关于四项偏好的规则见 [方法](METHODOLOGY.md)，详细事实及边界见 [逐车证据](MODEL_DETAILS.md)。', '',
-             '| 车型/动力分支 | 开发月数 | 全球化证据 | 基本 SKU | 指数区间 | 正式召回历史 | 购前状态 |',
-             '|---|---:|---|---:|---:|---|---|']
+             '| 车型/动力分支 | 已确认最低分 ↓ | 待补证可变分数 | 指数区间 | 开发月数 | 全球化证据 | 基本 SKU | 正式召回历史 | 购前状态 |',
+             '|---|---:|---:|---:|---:|---|---:|---|---|']
     for r in display:
         m = by_id[r['id']]
         recall = '有品牌记录' if bm[m['brand_id']]['recall_status']=='formal_history_found' else '尚未证实'
-        lines.append(f'| [{m["name"]}](MODEL_DETAILS.md#{m["id"]}) | {rng(m["development"]["months_range"])} | {GLOBAL_LABELS[m["globalization"]["level"]]} | {rng(m["sku"]["count_range"])} | {rng([r["low"],r["high"]])} | {recall} | {r["status"]} |')
+        lines.append(f'| [{m["name"]}](MODEL_DETAILS.md#{m["id"]}) | {number(r["low"])} | {number(round(r["high"]-r["low"],1))} | {rng([r["low"],r["high"]])} | {rng(m["development"]["months_range"])} | {GLOBAL_LABELS[m["globalization"]["level"]]} | {rng(m["sku"]["count_range"])} | {recall} | {r["status"]} |')
     lines += ['', 'P7+ 的纯电与增程共四个基础配置，拆成两条是因为欧洲 BEV 证据不能自动授予 EREV。', '',
               '低分且没有完整证据的车型不能进入“已核实推荐”。旧年款、集团关联召回、未来出海计划均不自动变成当前车型通过项。', '',
               '## 权重敏感性', '', '以下两套权重只展示偏好变化对区间的影响，不提供名次。未披露研发和用工证据仍是最大缺口。', '',
