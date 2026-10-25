@@ -5,3 +5,6 @@ __pycache__/
 Thumbs.db
 node_modules/
 calculator/tests/artifacts/
+
+# WeChat developer-tool settings for this machine
+calculator/wechat/project.private.config.json
